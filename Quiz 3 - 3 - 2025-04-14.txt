@@ -1,0 +1,537 @@
+Quiz 3 - 3 - 2025-04-14
+----------------------------------------
+----------------------------------------
+Question 1:
+✔CORRECT - 6/ 6pts
+A client in a network with a proxy server requests a 5 MiB file from an internet server, fakeservername.com. The network’s proxy server has a 1.2 Mbps connection to fakeservername.com. The average response time between the network’s proxy server and the internet origin server (including RTT) is 2.1 seconds for a small “header-only” HTTP request/response. The file requested by the client is currently in the proxy server cache, but the proxy server relays the client’s request to the internet server with “if-modified since”.Assume that transmissions between the proxy and the origin servers are stream (not packets) at full bandwidth, with negligible propagation delay.How much time is saved if the file has not been modified? (Give answer in seconds, without units, rounded to two decimal places, so for an answer of 1.4233 seconds you would enter "1.42" without the quotes.)
+----------------------------------------
+----------------------------------------
+Question 2:
+✔CORRECT - 1/ 1pts
+An HTTPservermaintains client states.
+  ✔ Option 2: False - Correct
+  ❌ Option 1: True - Incorrect
+----------------------------------------
+----------------------------------------
+Question 3:
+✔CORRECT - 1/ 1pts
+HTTP implements a conditional GET using if-modified-since.
+  ✔ Option 1: True - Correct
+  ❌ Option 2: False - Incorrect
+----------------------------------------
+----------------------------------------
+Question 4:
+✔CORRECT - 1/ 1pts
+The reserved port for FTP control is port21.
+  ✔ Option 2: 21 - Correct
+  ❌ Option 1: 20 - Incorrect
+  ❌ Option 3: 22 - Incorrect
+  ❌ Option 4: 25 - Incorrect
+  ❌ Option 5: 80 - Incorrect
+----------------------------------------
+----------------------------------------
+Question 5:
+✔CORRECT - 1/ 1pts
+The reserved port for SSH is port22.
+  ✔ Option 3: 22 - Correct
+  ❌ Option 1: 20 - Incorrect
+  ❌ Option 2: 21 - Incorrect
+  ❌ Option 4: 25 - Incorrect
+  ❌ Option 5: 80 - Incorrect
+----------------------------------------
+----------------------------------------
+Question 6:
+✔CORRECT - 1/ 1pts
+The FTP application-layer protocol utilizes theTCPtransport-layer protocol.
+  ✔ Option 2: TCP - Correct
+  ❌ Option 1: HTTP - Incorrect
+  ❌ Option 3: IP - Incorrect
+  ❌ Option 4: UDP - Incorrect
+  ❌ Option 5: SMTP - Incorrect
+----------------------------------------
+----------------------------------------
+Question 7:
+✔CORRECT - 1/ 1pts
+Cookies are not a security or privacy concern.
+  ✔ Option 2: False - Correct
+  ❌ Option 1: True - Incorrect
+----------------------------------------
+----------------------------------------
+Question 8:
+✔CORRECT - 1/ 1pts
+If an HTTP server requires 2 TCP connections to send 2 objects, this is an example ofnon-persistentHTTP.
+  ✔ Option 4: non-persistent - Correct
+  ❌ Option 1: state-conserving - Incorrect
+  ❌ Option 2: stateless - Incorrect
+  ❌ Option 3: persistent - Incorrect
+----------------------------------------
+----------------------------------------
+Question 9:
+✔CORRECT - 1/ 1pts
+Place the steps in the correct order for a complete e-mail communication.Alice uses her user agent to compose message and sent to Bob's email address.Alice's user agent sends message to her mail server; message placed in message queue.Client side of SMTP opens TCP connection with Bob's mail server.SMTP client sends Alice's message over the TCP connection.Bob's mail server places the message in Bob's mailbox.Bob uses his user agent to read the message.
+  ✔ Option 4: Alice uses her user agent to compose message and sent to Bob's email address. - Correct
+  ✔ Option 8: Alice's user agent sends message to her mail server; message placed in message queue. - Correct
+  ✔ Option 13: Client side of SMTP opens TCP connection with Bob's mail server. - Correct
+  ✔ Option 24: SMTP client sends Alice's message over the TCP connection. - Correct
+  ✔ Option 27: Bob's mail server places the message in Bob's mailbox. - Correct
+  ✔ Option 35: Bob uses his user agent to read the message. - Correct
+  ❌ Option 1: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect
+  ❌ Option 2: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect
+  ❌ Option 3: Bob's mail server places the message in Bob's mailbox. - Incorrect
+  ❌ Option 5: Bob uses his user agent to read the message. - Incorrect
+  ❌ Option 6: SMTP client sends Alice's message over the TCP connection. - Incorrect
+  ❌ Option 7: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect
+  ❌ Option 9: Bob's mail server places the message in Bob's mailbox. - Incorrect
+  ❌ Option 10: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect
+  ❌ Option 11: Bob uses his user agent to read the message. - Incorrect
+  ❌ Option 12: SMTP client sends Alice's message over the TCP connection. - Incorrect
+  ❌ Option 14: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect
+  ❌ Option 15: Bob's mail server places the message in Bob's mailbox. - Incorrect
+  ❌ Option 16: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect
+  ❌ Option 17: Bob uses his user agent to read the message. - Incorrect
+  ❌ Option 18: SMTP client sends Alice's message over the TCP connection. - Incorrect
+  ❌ Option 19: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect
+  ❌ Option 20: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect
+  ❌ Option 21: Bob's mail server places the message in Bob's mailbox. - Incorrect
+  ❌ Option 22: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect
+  ❌ Option 23: Bob uses his user agent to read the message. - Incorrect
+  ❌ Option 25: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect
+  ❌ Option 26: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect
+  ❌ Option 28: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect
+  ❌ Option 29: Bob uses his user agent to read the message. - Incorrect
+  ❌ Option 30: SMTP client sends Alice's message over the TCP connection. - Incorrect
+  ❌ Option 31: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect
+  ❌ Option 32: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect
+  ❌ Option 33: Bob's mail server places the message in Bob's mailbox. - Incorrect
+  ❌ Option 34: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect
+  ❌ Option 36: SMTP client sends Alice's message over the TCP connection. - Incorrect
+----------------------------------------
+----------------------------------------
+Question 10:
+✔CORRECT - 0/ 1pts
+An FTP server maintains client states.
+  ✔ Option 2: False - Correct
+  ❌ Option 1: True - Incorrect
+----------------------------------------
+----------------------------------------
+Question 11:
+✔CORRECT - 1/ 1pts
+If an HTTP server can send 2 objects over a single TCP connection, this is an example ofpersistentHTTP.
+  ✔ Option 3: persistent - Correct
+  ❌ Option 1: state-conserving - Incorrect
+  ❌ Option 2: stateless - Incorrect
+  ❌ Option 4: non-persistent - Incorrect
+----------------------------------------
+----------------------------------------
+Question 12:
+✔CORRECT - 0/ 1pts
+The HTTP application-layer protocol utilizes theHTTPtransport-layer protocol.
+  ✔ Option 1: HTTP - Correct
+  ❌ Option 2: TCP - Incorrect
+  ❌ Option 3: IP - Incorrect
+  ❌ Option 4: UDP - Incorrect
+  ❌ Option 5: SMTP - Incorrect
+----------------------------------------
+----------------------------------------
+Question 13:
+✔CORRECT - 1/ 1pts
+The POP3 e-mail protocol is called aPullprotocol.
+  ✔ Option 3: Pull - Correct
+  ❌ Option 1: Neither - Incorrect
+  ❌ Option 2: Push - Incorrect
+  ❌ Option 4: crappy - Incorrect
+----------------------------------------
+----------------------------------------
+Question 14:
+✔CORRECT - 1/ 1pts
+Consider the following:http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngThe Host Name isoregonstate.eduThe Path Nameis/admissions/sites/all/themes/doug_fir/images/osu-tag.pngThe URL ishttp://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngThe TLD isEDU
+  ✔ Option 4: oregonstate.edu - Correct
+  ✔ Option 13: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Correct
+  ✔ Option 19: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Correct
+  ✔ Option 23: EDU - Correct
+  ❌ Option 1: http:// - Incorrect
+  ❌ Option 2: EDU - Incorrect
+  ❌ Option 3: PNG - Incorrect
+  ❌ Option 5: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 6: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 7: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 8: http:// - Incorrect
+  ❌ Option 9: EDU - Incorrect
+  ❌ Option 10: PNG - Incorrect
+  ❌ Option 11: oregonstate.edu - Incorrect
+  ❌ Option 12: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 14: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 15: http:// - Incorrect
+  ❌ Option 16: EDU - Incorrect
+  ❌ Option 17: PNG - Incorrect
+  ❌ Option 18: oregonstate.edu - Incorrect
+  ❌ Option 20: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 21: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 22: http:// - Incorrect
+  ❌ Option 24: PNG - Incorrect
+  ❌ Option 25: oregonstate.edu - Incorrect
+  ❌ Option 26: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 27: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+  ❌ Option 28: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect
+----------------------------------------
+----------------------------------------
+Question 15:
+✔CORRECT - 1/ 1pts
+The following is a valid IP address:130.154.1.25
+  ✔ Option 1: True - Correct
+  ❌ Option 2: False - Incorrect
+----------------------------------------
+----------------------------------------
+Question 16:
+✔CORRECT - 1/ 1pts
+The IMAP/POP3 application-layer protocols utilizes theTCPtransport-layer protocol.
+  ✔ Option 2: TCP - Correct
+  ❌ Option 1: HTTP - Incorrect
+  ❌ Option 3: IP - Incorrect
+  ❌ Option 4: UDP - Incorrect
+  ❌ Option 5: SMTP - Incorrect
+----------------------------------------
+----------------------------------------
+Question 17:
+✔CORRECT - 1/ 1pts
+Consider the following:http://www.google.com/images/srpr/logo11w.pngThe Host Name iswww.google.comThe Path Nameis/images/srpr/logo11w.pngThe URL ishttp://www.google.com/images/srpr/logo11w.pngThe TLD isCOM
+  ✔ Option 4: www.google.com - Correct
+  ✔ Option 13: /images/srpr/logo11w.png - Correct
+  ✔ Option 19: http://www.google.com/images/srpr/logo11w.png - Correct
+  ✔ Option 23: COM - Correct
+  ❌ Option 1: http:// - Incorrect
+  ❌ Option 2: COM - Incorrect
+  ❌ Option 3: PNG - Incorrect
+  ❌ Option 5: http://www.google.com/images/srpr/logo11w.png - Incorrect
+  ❌ Option 6: /images/srpr/logo11w.png - Incorrect
+  ❌ Option 7: www.google.com/images/srpr/logo11w.png - Incorrect
+  ❌ Option 8: http:// - Incorrect
+  ❌ Option 9: COM - Incorrect
+  ❌ Option 10: PNG - Incorrect
+  ❌ Option 11: www.google.com - Incorrect
+  ❌ Option 12: http://www.google.com/images/srpr/logo11w.png - Incorrect
+  ❌ Option 14: www.google.com/images/srpr/logo11w.png - Incorrect
+  ❌ Option 15: http:// - Incorrect
+  ❌ Option 16: COM - Incorrect
+  ❌ Option 17: PNG - Incorrect
+  ❌ Option 18: www.google.com - Incorrect
+  ❌ Option 20: /images/srpr/logo11w.png - Incorrect
+  ❌ Option 21: www.google.com/images/srpr/logo11w.png - Incorrect
+  ❌ Option 22: http:// - Incorrect
+  ❌ Option 24: PNG - Incorrect
+  ❌ Option 25: www.google.com - Incorrect
+  ❌ Option 26: http://www.google.com/images/srpr/logo11w.png - Incorrect
+  ❌ Option 27: /images/srpr/logo11w.png - Incorrect
+  ❌ Option 28: www.google.com/images/srpr/logo11w.png - Incorrect
+----------------------------------------
+----------------------------------------
+Question 18:
+✔CORRECT - 1/ 1pts
+FTP is implemented over a single TCP connection.
+  ✔ Option 2: False - Correct
+  ❌ Option 1: True - Incorrect
+----------------------------------------
+----------------------------------------
+Question 19:
+✔CORRECT - 1/ 1pts
+The IMAP e-mail protocol is called aPullprotocol.
+  ✔ Option 3: Pull - Correct
+  ❌ Option 1: Neither - Incorrect
+  ❌ Option 2: Push - Incorrect
+  ❌ Option 4: crappy - Incorrect
+----------------------------------------
+----------------------------------------
+Question 20:
+✔CORRECT - 1/ 1pts
+Consider the following:http://www.google.com/images/nav_logo195.pngThe Host Name iswww.google.comThe Path Nameis/images/nav_logo195.pngThe URL ishttp://www.google.com/images/nav_logo195.pngThe TLD isCOM
+  ✔ Option 4: www.google.com - Correct
+  ✔ Option 13: /images/nav_logo195.png - Correct
+  ✔ Option 19: http://www.google.com/images/nav_logo195.png - Correct
+  ✔ Option 23: COM - Correct
+  ❌ Option 1: http:// - Incorrect
+  ❌ Option 2: COM - Incorrect
+  ❌ Option 3: PNG - Incorrect
+  ❌ Option 5: http://www.google.com/images/nav_logo195.png - Incorrect
+  ❌ Option 6: /images/nav_logo195.png - Incorrect
+  ❌ Option 7: www.google.com/images/nav_logo195.png - Incorrect
+  ❌ Option 8: http:// - Incorrect
+  ❌ Option 9: COM - Incorrect
+  ❌ Option 10: PNG - Incorrect
+  ❌ Option 11: www.google.com - Incorrect
+  ❌ Option 12: http://www.google.com/images/nav_logo195.png - Incorrect
+  ❌ Option 14: www.google.com/images/nav_logo195.png - Incorrect
+  ❌ Option 15: http:// - Incorrect
+  ❌ Option 16: COM - Incorrect
+  ❌ Option 17: PNG - Incorrect
+  ❌ Option 18: www.google.com - Incorrect
+  ❌ Option 20: /images/nav_logo195.png - Incorrect
+  ❌ Option 21: www.google.com/images/nav_logo195.png - Incorrect
+  ❌ Option 22: http:// - Incorrect
+  ❌ Option 24: PNG - Incorrect
+  ❌ Option 25: www.google.com - Incorrect
+  ❌ Option 26: http://www.google.com/images/nav_logo195.png - Incorrect
+  ❌ Option 27: /images/nav_logo195.png - Incorrect
+  ❌ Option 28: www.google.com/images/nav_logo195.png - Incorrect
+----------------------------------------
+----------------------------------------
+Question 21:
+✔CORRECT - 1/ 1pts
+Consider the following:http://www.oregon.gov/images/logo.pngThe Host Name iswww.oregon.govThe Path Nameis/images/logo.pngThe URL ishttp://www.oregon.gov/images/logo.pngThe TLD isGOV
+  ✔ Option 4: www.oregon.gov - Correct
+  ✔ Option 13: /images/logo.png - Correct
+  ✔ Option 19: http://www.oregon.gov/images/logo.png - Correct
+  ✔ Option 23: GOV - Correct
+  ❌ Option 1: http:// - Incorrect
+  ❌ Option 2: GOV - Incorrect
+  ❌ Option 3: PNG - Incorrect
+  ❌ Option 5: http://www.oregon.gov/images/logo.png - Incorrect
+  ❌ Option 6: /images/logo.png - Incorrect
+  ❌ Option 7: www.oregon.gov/images/logo.png - Incorrect
+  ❌ Option 8: http:// - Incorrect
+  ❌ Option 9: GOV - Incorrect
+  ❌ Option 10: PNG - Incorrect
+  ❌ Option 11: www.oregon.gov - Incorrect
+  ❌ Option 12: http://www.oregon.gov/images/logo.png - Incorrect
+  ❌ Option 14: www.oregon.gov/images/logo.png - Incorrect
+  ❌ Option 15: http:// - Incorrect
+  ❌ Option 16: GOV - Incorrect
+  ❌ Option 17: PNG - Incorrect
+  ❌ Option 18: www.oregon.gov - Incorrect
+  ❌ Option 20: /images/logo.png - Incorrect
+  ❌ Option 21: www.oregon.gov/images/logo.png - Incorrect
+  ❌ Option 22: http:// - Incorrect
+  ❌ Option 24: PNG - Incorrect
+  ❌ Option 25: www.oregon.gov - Incorrect
+  ❌ Option 26: http://www.oregon.gov/images/logo.png - Incorrect
+  ❌ Option 27: /images/logo.png - Incorrect
+  ❌ Option 28: www.oregon.gov/images/logo.png - Incorrect
+----------------------------------------
+----------------------------------------
+Question 22:
+✔CORRECT - 0/ 3pts
+A client’s browser sends an HTTP request to a website. The website responds with a handshake and sets up a TCP connection. The connection setup takes 2 sec, including the RTT. The browser then sends the request for the website’s index file. The index file references2additional images, which are to be requested/downloaded by the client’s browser. How many requests (including the initial request) must be sent by the browser…With non-persistent HTTP?3requestsWith persistent HTTP?3requests
+  ✔ Option 3: 3 - Correct
+  ✔ Option 23: 3 - Correct
+  ❌ Option 1: 1 - Incorrect
+  ❌ Option 2: 2 - Incorrect
+  ❌ Option 4: 4 - Incorrect
+  ❌ Option 5: 5 - Incorrect
+  ❌ Option 6: 6 - Incorrect
+  ❌ Option 7: 7 - Incorrect
+  ❌ Option 8: 8 - Incorrect
+  ❌ Option 9: 9 - Incorrect
+  ❌ Option 10: 10 - Incorrect
+  ❌ Option 11: 11 - Incorrect
+  ❌ Option 12: 12 - Incorrect
+  ❌ Option 13: 13 - Incorrect
+  ❌ Option 14: 14 - Incorrect
+  ❌ Option 15: 15 - Incorrect
+  ❌ Option 16: 16 - Incorrect
+  ❌ Option 17: 17 - Incorrect
+  ❌ Option 18: 18 - Incorrect
+  ❌ Option 19: 19 - Incorrect
+  ❌ Option 20: 20 - Incorrect
+  ❌ Option 21: 1 - Incorrect
+  ❌ Option 22: 2 - Incorrect
+  ❌ Option 24: 4 - Incorrect
+  ❌ Option 25: 5 - Incorrect
+  ❌ Option 26: 6 - Incorrect
+  ❌ Option 27: 7 - Incorrect
+  ❌ Option 28: 8 - Incorrect
+  ❌ Option 29: 9 - Incorrect
+  ❌ Option 30: 10 - Incorrect
+  ❌ Option 31: 11 - Incorrect
+  ❌ Option 32: 12 - Incorrect
+  ❌ Option 33: 13 - Incorrect
+  ❌ Option 34: 14 - Incorrect
+  ❌ Option 35: 15 - Incorrect
+  ❌ Option 36: 16 - Incorrect
+  ❌ Option 37: 17 - Incorrect
+  ❌ Option 38: 18 - Incorrect
+  ❌ Option 39: 19 - Incorrect
+  ❌ Option 40: 20 - Incorrect
+----------------------------------------
+----------------------------------------
+Question 23:
+✔CORRECT - 0/ 3pts
+A client’s browser sends an HTTP request to a website. The website responds with a handshake and sets up a TCP connection. The connection setup takes 2 sec, including the RTT. The browser then sends the request for the website’s index file. The index file references4additional images, which are to be requested/downloaded by the client’s browser. How many requests (including the initial request) must be sent by the browser…With non-persistent HTTP?5requestsWith persistent HTTP?5requests
+  ✔ Option 5: 5 - Correct
+  ✔ Option 25: 5 - Correct
+  ❌ Option 1: 1 - Incorrect
+  ❌ Option 2: 2 - Incorrect
+  ❌ Option 3: 3 - Incorrect
+  ❌ Option 4: 4 - Incorrect
+  ❌ Option 6: 6 - Incorrect
+  ❌ Option 7: 7 - Incorrect
+  ❌ Option 8: 8 - Incorrect
+  ❌ Option 9: 9 - Incorrect
+  ❌ Option 10: 10 - Incorrect
+  ❌ Option 11: 11 - Incorrect
+  ❌ Option 12: 12 - Incorrect
+  ❌ Option 13: 13 - Incorrect
+  ❌ Option 14: 14 - Incorrect
+  ❌ Option 15: 15 - Incorrect
+  ❌ Option 16: 16 - Incorrect
+  ❌ Option 17: 17 - Incorrect
+  ❌ Option 18: 18 - Incorrect
+  ❌ Option 19: 19 - Incorrect
+  ❌ Option 20: 20 - Incorrect
+  ❌ Option 21: 1 - Incorrect
+  ❌ Option 22: 2 - Incorrect
+  ❌ Option 23: 3 - Incorrect
+  ❌ Option 24: 4 - Incorrect
+  ❌ Option 26: 6 - Incorrect
+  ❌ Option 27: 7 - Incorrect
+  ❌ Option 28: 8 - Incorrect
+  ❌ Option 29: 9 - Incorrect
+  ❌ Option 30: 10 - Incorrect
+  ❌ Option 31: 11 - Incorrect
+  ❌ Option 32: 12 - Incorrect
+  ❌ Option 33: 13 - Incorrect
+  ❌ Option 34: 14 - Incorrect
+  ❌ Option 35: 15 - Incorrect
+  ❌ Option 36: 16 - Incorrect
+  ❌ Option 37: 17 - Incorrect
+  ❌ Option 38: 18 - Incorrect
+  ❌ Option 39: 19 - Incorrect
+  ❌ Option 40: 20 - Incorrect
+----------------------------------------
+----------------------------------------
+Question 24:
+✔CORRECT - 1/ 1pts
+Suppose an HTTP server sends the following HTTP response message a client:HTTP/1.0 200 OKDate: Wed, 09 Sep 2020 23:46:21 +0000Server: Apache/2.2.3 (CentOS)Last-Modified: Wed, 09 Sep 2020 23:51:41 +0000ETag:17dc6-a5c-bf716880.Content-Length: 418Connection: CloseContent-type: image/htmlWill the web server close the TCP connection after sending this message?
+  ✔ Option 1: Yes, because this is HTTP 1.0 - Correct
+  ❌ Option 2: No, this is a persistent connection, and so the server will keep the TCP connection open. - Incorrect
+  ❌ Option 3: There’s not enough information to answer this question. - Incorrect
+----------------------------------------
+----------------------------------------
+Question 25:
+✔CORRECT - 1/ 1pts
+Which of the following are changes between HTTP 1.1 and HTTP/2? Note: select one or more answers.
+  ✔ Option 2: HTTP/2 allows objects in a persistent connection to be sent in a client-specified priority order. - Correct
+  ✔ Option 3: HTTP/2 allows a large object to be broken down into smaller pieces, and the transmission of those pieces to be interleaved with transmission other smaller objects, thus preventing a large object from forcing many smaller objects to wait their turn for transmission. - Correct
+  ❌ Option 1: HTTP/2 has many new HTTP methods and status codes. - Incorrect
+  ❌ Option 4: HTTP/2 provides enhanced security by using transport layer security (TLS). - Incorrect
+----------------------------------------
+----------------------------------------
+Question 26:
+✔CORRECT - 1/ 1pts
+We learned that in HTTP web browser caching, HTTP local web server caching, and in local DNS caching, that a user benefits (e.g., shorter delays over the case of no caching) from finding a local/nearby copy of a requested item. In which of the following forms of caching does a user benefit from its not only from its own recent requests (and cached replies)but also from recent requests made from other users?
+  ✔ Option 1: Local DNS server caching - Correct
+  ✔ Option 3: HTTP local web caching - Correct
+  ❌ Option 2: HTTP browser caching - Incorrect
+----------------------------------------
+----------------------------------------
+Question 27:
+✔CORRECT - 1/ 1pts
+Match the function of a server to a given type of DNS server in the  DNS server hierarchy.
+  ✔ Option 1: Provides authoritative hostname to IP mappings for organization’s named hosts. - Correct
+  ✔ Option 2: Replies to DNS query by local host, by contacting other DNS servers to answer the query. - Correct
+  ✔ Option 3: Responsible for a domain (e.g., *.com, *.edu); knows how to contact authoritative name servers. - Correct
+  ✔ Option 4: Highest level of the DNS hierarchy, knows how to reach servers responsible for a given domain (e.g., *.com, *.edu). - Correct
+----------------------------------------
+----------------------------------------
+Question 28:
+✔CORRECT - 1/ 1pts
+What is the purpose of a cookie value in the HTTP GET request?
+  ✔ Option 4: The cookie value itself doesn't mean anything. It is just a value that was returned by a web server to this client during an earlier interaction. - Correct
+  ❌ Option 1: The cookie value encodes the format of the reply preferred by the client in the response to this GET request. - Incorrect
+  ❌ Option 2: The cookie value indicates whether the user wants to use HTTP/1, HTTP/1.1, or HTTP/2 for this GET request. - Incorrect
+  ❌ Option 3: The cookie value is an encoding of a user email address associated with the GET request. - Incorrect
+  ❌ Option 5: The cookie value encodes a default set of preferences that the user has previously specified for this web site. - Incorrect
+----------------------------------------
+----------------------------------------
+Question 29:
+✔CORRECT - 1/ 1pts
+What is the value of caching in the local DNS name server? Check all that apply.
+  ✔ Option 1: DNS caching provides for faster replies, if the reply to the query is found in the cache. - Correct
+  ✔ Option 2: DNS caching results in less load elsewhere in DNS, when the reply to a query is found in the local cache. - Correct
+  ❌ Option 3: DNS caching provides prioritized access to the root servers, since the DNS request is from a local DNS cache. - Incorrect
+  ❌ Option 4: DNS caching provides the ability to serve as authoritative name server for multiple organizations. - Incorrect
+----------------------------------------
+----------------------------------------
+Question 30:
+✔CORRECT - 1/ 1pts
+What is the purpose of the conditional HTTP GET request message?
+  ✔ Option 1: To allow a server to only send the requested object to the client if this object has changed since the server last sent this object to the client. - Correct
+  ❌ Option 2: To allow a server to only send the requested object to the client if the client is authorized to receive that object. - Incorrect
+  ❌ Option 3: To allow a server to only send the requested object to the client if the server is not overloaded. - Incorrect
+  ❌ Option 4: To allow a server to only send the requested object to the client if the client has never requested that object before. - Incorrect
+----------------------------------------
+----------------------------------------
+Question 31:
+✔CORRECT - 0/ 3pts
+Consider the following scenario, in which a Web browser (lower) connects to a web server (above).  There is no web cache in this question (so make sure you understand the difference between a browser cache and a web cache).  Assume that the total Round Trip Time (RTT) propagation and queueing delay between the browser and web server is 200 msec.Suppose that whenever the browser makes an HTTP request to the server for any HTTP object on that site, that the browser has a copy of that object in its cache (the user loves to get content  from that site!), but that copy may or may not be up-to-date in its cache (and so the browser requests the object using the HTTPIf-Modified-Sinceheader field).  Assume that the time taken to transmit any HTTP reply (by the sender into the TCP connection) that contains a requested object in the body of an HTTP reply is 50 msec (again, for all objects), but that the time taken to transmit a HTTP reply with a “304 Not Modified” reply code without an included object is negligible (e.g., zero). You can assume that a TCP connection has always been set up, so do not include that delay in your answer below.Suppose that 90% of the HTTP requests are for objects that are up-to-date in the browser's cache, and so 10% are cache "misses" and will require the up-to-date object to be downloaded, and browser-cached. What is the average time (over all requests that the browser makes to this site) from when the browser issues the initial HTTP GET request until it is able to display the requested object?
+  ✔ Option 5: 400 msec - Correct
+  ❌ Option 1: 205 msec - Incorrect
+  ❌ Option 2: 200 msec - Incorrect
+  ❌ Option 3: 250 msec - Incorrect
+  ❌ Option 4: 225 msec - Incorrect
+  ❌ Option 6: 500 msec - Incorrect
+  ❌ Option 7: 350 msec - Incorrect
+----------------------------------------
+----------------------------------------
+Question 32:
+✔CORRECT - 3/ 3pts
+Consider the following scenario, in which a Web browser (lower) connects to a web server (above).  There is also a local web cache in the bowser’s access network.  In this question, we will ignore browser caching (so make sure you understand the difference between a browser cache and a web cache). In this question, we want to focus on the utilization of the 100 Mbps access link between the two networks.Suppose that each requested object is 10 Mbits, and that 9 HTTP requests per second are being made to origin servers from the clients in the access network.  Suppose that 80% of the requested objects by the client are found in the local web cache. What is theutilizationof the access link?
+  ✔ Option 1: 0.18 - Correct
+  ❌ Option 2: 0.45 - Incorrect
+  ❌ Option 3: 0.72 - Incorrect
+  ❌ Option 4: 1.0 - Incorrect
+  ❌ Option 5: 250 msec - Incorrect
+  ❌ Option 6: 0.2 msec - Incorrect
+  ❌ Option 7: 0.8 - Incorrect
+----------------------------------------
+----------------------------------------
+Question 33:
+✔CORRECT - 3/ 3pts
+Consider the following scenario, in which a Web browser (lower) connects to a web server (above).  There is no web cache in this question (so make sure you understand the difference between a browser cache and a web cache).  Assume that the total Round Trip Time (RTT) propagation and queueing delay between the browser and web server is 200 msec.Suppose that the browser makes an HTTP request to the server for an HTTP object, that the browser has a copy of that object in its cache, but that copy may or may not be up-to-date in its cache (and so the browser requests the object using the HTTPIf-Modified-Sinceheader field).  Assume that the time taken to transmit an HTTP reply (by the sender into the TCP connection) that contains a requested object in the body of an HTTP reply is 50 msec, but that the time taken to transmit a HTTP reply with a “304 Not Modified” reply code without an included object is negligible (e.g., zero). You can assume that a TCP connection has already been set up, so do not include that delay in your answer below.What is the time from when the browser issues the initial HTTP GET request until it is able to display the requested object in the case that the browserdoeshave the requested object in its browser cache?
+  ✔ Option 3: 200 msec - Correct
+  ❌ Option 1: 250 msec - Incorrect
+  ❌ Option 2: 100 msec - Incorrect
+  ❌ Option 4: 500 msec - Incorrect
+  ❌ Option 5: 550 msec - Incorrect
+  ❌ Option 6: 300 msec - Incorrect
+  ❌ Option 7: 350 msec - Incorrect
+----------------------------------------
+----------------------------------------
+Question 34:
+✔CORRECT - 0/ 3pts
+Consider again the scenario shown in the figure below,Assume that the client and server have not communicated before, that the client knows the server's IP address, and that HTTP 1.1 is being used. Now assume that the client has a browser cache (but no web cache). The browser cache is initially empty, and all GET request messages have anIf-Modified-Sincefield.The HTTP client:again makes a first GET request to the leftmost server for a base page that it has never before requested; the base page contains a reference to an embedded jpeg object.makes a second GET request for that embedded object.then makes a third GET request (a very short time later) for thesameembedded jpeg object (with that third GET request having an  If-Modified-Since field).Let's focus onjust this thirdHTTP GET request.How many round trip times (RTTs) are needed from when the browser issues thethirdHTTP GET request, until the reply for that third GET request is received?You should take into account any TCP setup time (if any) required before an HTTP GET is  sent by the client, the time needed for the server to transmit a requested object (if any), and any propagation delays (if any)not accounted for in these other amounts of time.
+  ✔ Option 4: 2 RTT - Correct
+  ❌ Option 1: 0 RTT - Incorrect
+  ❌ Option 2: 1.0 RTT - Incorrect
+  ❌ Option 3: 1.25 RTT - Incorrect
+  ❌ Option 5: 2.25 RTT - Incorrect
+----------------------------------------
+----------------------------------------
+Question 35:
+✔CORRECT - 1/ 3pts
+Suppose that the local DNS server caches all information coming in from all root, TLD, and authoritative DNS servers for 20 time units. (Thus, for example, when a root server returns the name and address of a TLD server for .com, the cache remembers that this is the TLD server to use to resolve a .com name).  Assume also that the local cache is initially empty, that iterative DNS queries are always used, that DNS requests are just for name-to-IP-address translation, that 1 time unit is needed for each server-to-server or host-to-server (one way) request or response, and that there is only one authoritative name server (each) for any .edu or .com domain.Consider the following DNS requests, made by the local host at the given times:t=0,the local host requests that the name gaia.cs.umass.edu be resolved to an IP address.t=1,the local host requests that the name icann.org be resolved to an IP address.t=5,the local host requests that the name cs.umd.edu be resolved to an IP address. (Hint: be careful!)t=10,the local hostagainrequests that the name gaia.cs.umass.edu be resolved to an IP address.t=12, the local host requests that the name cs.mit.edu be resolved to an IP address.t=30,the local hostagainrequests that the name gaia.cs.umass.edu be resolved to an IP address. (Hint: be careful!)Which of the requests require 8 time units to be resolved?
+  ✔ Option 1: The request at t=0. - Correct
+  ❌ Option 2: The request at t=1. - Incorrect
+  ❌ Option 3: The request at t=5. - Incorrect
+  ❌ Option 4: The request at t=10. - Incorrect
+  ❌ Option 5: The request at t=12. - Incorrect
+  ❌ Option 6: The request at t=30. - Incorrect
+----------------------------------------
+----------------------------------------
+Question 36:
+✔CORRECT - 3/ 3pts
+Consider an HTTP 1.0 client and server. The RTT delay between the client and server is 2 seconds.  Suppose the time a server needs to transmit an object into its outgoing link is 3 seconds, as shown below for the first of these 100 requests.You can assume that any other HTTP message not containing an object sent by the client and server has a negligible (zero) transmission time. Suppose the client makes 100 requests, one after the other, waiting for a reply to a request before sending the next request.Using HTTP 1.0, how much time elapses between the client transmitting the first request, and the receipt of the last requested object?
+  ✔ Option 1: 700 secs - Correct
+  ❌ Option 2: 502 secs - Incorrect
+  ❌ Option 3: 500 secs - Incorrect
+  ❌ Option 4: 300 secs - Incorrect
+  ❌ Option 5: 203 secs - Incorrect
+----------------------------------------
+----------------------------------------
+Question 37:
+✔CORRECT - 0/ 3pts
+Suppose an HTTP client makes a request to the gaia.cs.umass.edu web server.  The client has never before requested a given base object, nor has it communicated recently with the gaia.cs.umass.edu server. You can assume, however, that the client host knows the IP address of gaia.cs.umass.edu.Suppose also that after downloading the base file, the browser encounters a jpeg object in the base html file that is stored on gaia.cs.umass.edu, and therefore makes another GET request to gaia.cs.umass.edu for that referenced jpeg object.How many round trip times (RTTs) are needed from when the client first makes the request to when the base page and the jpeg file are completely downloaded, assuming the time needed by the server to transmit the base file, or the jpeg file into the server's link is (each) equal to 1/2 RTT and that the time needed to transmit the HTTP GET into the client's link is zero.You should assume that HTTP 1.0 is being used.(You should take into account any TCP setup time required before an HTTP GET is actually sent by the client,  the time needed for the server to transmit the requested object, and any propagation delays not accounted for in these amounts of time.)
+  ✔ Option 4: 2 RTT - Correct
+  ❌ Option 1: 2.5 RTT - Incorrect
+  ❌ Option 2: 5 RTT - Incorrect
+  ❌ Option 3: 1 RTT - Incorrect
+  ❌ Option 5: 4 RTT - Incorrect
+----------------------------------------

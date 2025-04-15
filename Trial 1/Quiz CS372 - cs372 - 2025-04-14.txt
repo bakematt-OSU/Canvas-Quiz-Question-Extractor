@@ -1,0 +1,850 @@
+Quiz CS372 - cs372 - 2025-04-14
+----------------------------------------
+----------------------------------------
+Question 1:
+A client in a network with a proxy server requests a 5 MiB file from an internet server, fakeservername.com. The network’s proxy server has a 1.2 Mbps connection to fakeservername.com. The average response time between the network’s proxy server and the internet origin server (including RTT) is 2.1 seconds for a small “header-only” HTTP request/response. The file requested by the client is currently in the proxy server cache, but the proxy server relays the client’s request to the internet server with “if-modified since”.Assume that transmissions between the proxy and the origin servers are stream (not packets) at full bandwidth, with negligible propagation delay.How much time is saved if the file has not been modified? (Give answer in seconds, without units, rounded to two decimal places, so for an answer of 1.4233 seconds you would enter "1.42" without the quotes.)
+----------------------------------------
+----------------------------------------
+Question 2:
+An HTTPservermaintains client states.
+  ✔ Option 2: False - Correct
+  ⭕    Option 1: True - Incorrect - INCORRECT
+  ❓ 59461TrueTrueexact_answernone5738818959461margin of error+/-
+  ❓ 48024FalseFalseexact_answernone5738818948024margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 3:
+HTTP implements a conditional GET using if-modified-since.
+  ✔ Option 1: True - Correct
+  ⭕    Option 2: False - Incorrect - INCORRECT
+  ❓ 83457TrueTrueexact_answernone5738783983457margin of error+/-
+  ❓ 7616FalseFalseexact_answernone573878397616margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 4:
+The reserved port for FTP control is port21.
+  ✔ Option 2: 21 - Correct
+  ⭕    Option 1: 20 - Incorrect - INCORRECT
+  ⭕    Option 3: 22 - Incorrect - INCORRECT
+  ⭕    Option 4: 25 - Incorrect - INCORRECT
+  ⭕    Option 5: 80 - Incorrect - INCORRECT
+  ❓ 535112020exact_answera5738818553511margin of error+/-
+  ❓ 408902121exact_answera5738818540890margin of error+/-
+  ❓ 65622222exact_answera573881856562margin of error+/-
+  ❓ 678782525exact_answera5738818567878margin of error+/-
+  ❓ 104128080exact_answera5738818510412margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 5:
+The reserved port for SSH is port22.
+  ✔ Option 3: 22 - Correct
+  ⭕    Option 1: 20 - Incorrect - INCORRECT
+  ⭕    Option 2: 21 - Incorrect - INCORRECT
+  ⭕    Option 4: 25 - Incorrect - INCORRECT
+  ⭕    Option 5: 80 - Incorrect - INCORRECT
+  ❓ 630422020exact_answera5738783463042margin of error+/-
+  ❓ 640032121exact_answera5738783464003margin of error+/-
+  ❓ 110922222exact_answera5738783411092margin of error+/-
+  ❓ 823552525exact_answera5738783482355margin of error+/-
+  ❓ 757308080exact_answera5738783475730margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 6:
+The FTP application-layer protocol utilizes theTCPtransport-layer protocol.
+  ✔ Option 2: TCP - Correct
+  ⭕    Option 1: HTTP - Incorrect - INCORRECT
+  ⭕    Option 3: IP - Incorrect - INCORRECT
+  ⭕    Option 4: UDP - Incorrect - INCORRECT
+  ⭕    Option 5: SMTP - Incorrect - INCORRECT
+  ❓ 81773HTTPHTTPexact_answera5738818381773margin of error+/-
+  ❓ 53127TCPTCPexact_answera5738818353127margin of error+/-
+  ❓ 48363IPIPexact_answera5738818348363margin of error+/-
+  ❓ 86241UDPUDPexact_answera5738818386241margin of error+/-
+  ❓ 28570SMTPSMTPexact_answera5738818328570margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 7:
+Cookies are not a security or privacy concern.
+  ✔ Option 2: False - Correct
+  ⭕    Option 1: True - Incorrect - INCORRECT
+  ❓ 61975TrueTrueexact_answernone5738784261975margin of error+/-
+  ❓ 25522FalseFalseexact_answernone5738784225522margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 8:
+If an HTTP server requires 2 TCP connections to send 2 objects, this is an example ofnon-persistentHTTP.
+  ✔ Option 4: non-persistent - Correct
+  ⭕    Option 1: state-conserving - Incorrect - INCORRECT
+  ⭕    Option 2: stateless - Incorrect - INCORRECT
+  ⭕    Option 3: persistent - Incorrect - INCORRECT
+  ❓ 42127state-conservingstate-conservingexact_answera5738784842127margin of error+/-
+  ❓ 34016statelessstatelessexact_answera5738784834016margin of error+/-
+  ❓ 60258persistentpersistentexact_answera5738784860258margin of error+/-
+  ❓ 58991non-persistentnon-persistentexact_answera5738784858991margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 9:
+Place the steps in the correct order for a complete e-mail communication.Alice uses her user agent to compose message and sent to Bob's email address.Alice's user agent sends message to her mail server; message placed in message queue.Client side of SMTP opens TCP connection with Bob's mail server.SMTP client sends Alice's message over the TCP connection.Bob's mail server places the message in Bob's mailbox.Bob uses his user agent to read the message.
+  ✔ Option 4: Alice uses her user agent to compose message and sent to Bob's email address. - Correct
+  ✔ Option 8: Alice's user agent sends message to her mail server; message placed in message queue. - Correct
+  ✔ Option 13: Client side of SMTP opens TCP connection with Bob's mail server. - Correct
+  ✔ Option 24: SMTP client sends Alice's message over the TCP connection. - Correct
+  ✔ Option 27: Bob's mail server places the message in Bob's mailbox. - Correct
+  ✔ Option 35: Bob uses his user agent to read the message. - Correct
+  ⭕    Option 1: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect - INCORRECT
+  ⭕    Option 2: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect - INCORRECT
+  ⭕    Option 3: Bob's mail server places the message in Bob's mailbox. - Incorrect - INCORRECT
+  ⭕    Option 5: Bob uses his user agent to read the message. - Incorrect - INCORRECT
+  ⭕    Option 6: SMTP client sends Alice's message over the TCP connection. - Incorrect - INCORRECT
+  ⭕    Option 7: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect - INCORRECT
+  ⭕    Option 9: Bob's mail server places the message in Bob's mailbox. - Incorrect - INCORRECT
+  ⭕    Option 10: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect - INCORRECT
+  ⭕    Option 11: Bob uses his user agent to read the message. - Incorrect - INCORRECT
+  ⭕    Option 12: SMTP client sends Alice's message over the TCP connection. - Incorrect - INCORRECT
+  ⭕    Option 14: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect - INCORRECT
+  ⭕    Option 15: Bob's mail server places the message in Bob's mailbox. - Incorrect - INCORRECT
+  ⭕    Option 16: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect - INCORRECT
+  ⭕    Option 17: Bob uses his user agent to read the message. - Incorrect - INCORRECT
+  ⭕    Option 18: SMTP client sends Alice's message over the TCP connection. - Incorrect - INCORRECT
+  ⭕    Option 19: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect - INCORRECT
+  ⭕    Option 20: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect - INCORRECT
+  ⭕    Option 21: Bob's mail server places the message in Bob's mailbox. - Incorrect - INCORRECT
+  ⭕    Option 22: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect - INCORRECT
+  ⭕    Option 23: Bob uses his user agent to read the message. - Incorrect - INCORRECT
+  ⭕    Option 25: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect - INCORRECT
+  ⭕    Option 26: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect - INCORRECT
+  ⭕    Option 28: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect - INCORRECT
+  ⭕    Option 29: Bob uses his user agent to read the message. - Incorrect - INCORRECT
+  ⭕    Option 30: SMTP client sends Alice's message over the TCP connection. - Incorrect - INCORRECT
+  ⭕    Option 31: Client side of SMTP opens TCP connection with Bob's mail server. - Incorrect - INCORRECT
+  ⭕    Option 32: Alice's user agent sends message to her mail server; message placed in message queue. - Incorrect - INCORRECT
+  ⭕    Option 33: Bob's mail server places the message in Bob's mailbox. - Incorrect - INCORRECT
+  ⭕    Option 34: Alice uses her user agent to compose message and sent to Bob's email address. - Incorrect - INCORRECT
+  ⭕    Option 36: SMTP client sends Alice's message over the TCP connection. - Incorrect - INCORRECT
+  ❓ 51759Client side of SMTP opens TCP connection with Bob's mail server.Client side of SMTP opens TCP connection with Bob's mail server.exact_answera5738873151759margin of error+/-
+  ❓ 5317Alice's user agent sends message to her mail server; message placed in message queue.Alice's user agent sends message to her mail server; message placed in message queue.exact_answera573887315317margin of error+/-
+  ❓ 35855Bob's mail server places the message in Bob's mailbox.Bob's mail server places the message in Bob's mailbox.exact_answera5738873135855margin of error+/-
+  ❓ 10078Alice uses her user agent to compose message and sent to Bob's email address.Alice uses her user agent to compose message and sent to Bob's email address.exact_answera5738873110078margin of error+/-
+  ❓ 4565Bob uses his user agent to read the message.Bob uses his user agent to read the message.exact_answera573887314565margin of error+/-
+  ❓ 35890SMTP client sends Alice's message over the TCP connection.SMTP client sends Alice's message over the TCP connection.exact_answera5738873135890margin of error+/-
+  ❓ 14955Client side of SMTP opens TCP connection with Bob's mail server.Client side of SMTP opens TCP connection with Bob's mail server.exact_answerb5738873114955margin of error+/-
+  ❓ 11189Alice's user agent sends message to her mail server; message placed in message queue.Alice's user agent sends message to her mail server; message placed in message queue.exact_answerb5738873111189margin of error+/-
+  ❓ 45371Bob's mail server places the message in Bob's mailbox.Bob's mail server places the message in Bob's mailbox.exact_answerb5738873145371margin of error+/-
+  ❓ 77697Alice uses her user agent to compose message and sent to Bob's email address.Alice uses her user agent to compose message and sent to Bob's email address.exact_answerb5738873177697margin of error+/-
+  ❓ 39391Bob uses his user agent to read the message.Bob uses his user agent to read the message.exact_answerb5738873139391margin of error+/-
+  ❓ 53733SMTP client sends Alice's message over the TCP connection.SMTP client sends Alice's message over the TCP connection.exact_answerb5738873153733margin of error+/-
+  ❓ 88240Client side of SMTP opens TCP connection with Bob's mail server.Client side of SMTP opens TCP connection with Bob's mail server.exact_answerc5738873188240margin of error+/-
+  ❓ 50247Alice's user agent sends message to her mail server; message placed in message queue.Alice's user agent sends message to her mail server; message placed in message queue.exact_answerc5738873150247margin of error+/-
+  ❓ 13695Bob's mail server places the message in Bob's mailbox.Bob's mail server places the message in Bob's mailbox.exact_answerc5738873113695margin of error+/-
+  ❓ 83465Alice uses her user agent to compose message and sent to Bob's email address.Alice uses her user agent to compose message and sent to Bob's email address.exact_answerc5738873183465margin of error+/-
+  ❓ 62743Bob uses his user agent to read the message.Bob uses his user agent to read the message.exact_answerc5738873162743margin of error+/-
+  ❓ 57896SMTP client sends Alice's message over the TCP connection.SMTP client sends Alice's message over the TCP connection.exact_answerc5738873157896margin of error+/-
+  ❓ 79066Client side of SMTP opens TCP connection with Bob's mail server.Client side of SMTP opens TCP connection with Bob's mail server.exact_answerd5738873179066margin of error+/-
+  ❓ 39445Alice's user agent sends message to her mail server; message placed in message queue.Alice's user agent sends message to her mail server; message placed in message queue.exact_answerd5738873139445margin of error+/-
+  ❓ 67321Bob's mail server places the message in Bob's mailbox.Bob's mail server places the message in Bob's mailbox.exact_answerd5738873167321margin of error+/-
+  ❓ 69461Alice uses her user agent to compose message and sent to Bob's email address.Alice uses her user agent to compose message and sent to Bob's email address.exact_answerd5738873169461margin of error+/-
+  ❓ 98997Bob uses his user agent to read the message.Bob uses his user agent to read the message.exact_answerd5738873198997margin of error+/-
+  ❓ 88658SMTP client sends Alice's message over the TCP connection.SMTP client sends Alice's message over the TCP connection.exact_answerd5738873188658margin of error+/-
+  ❓ 89582Client side of SMTP opens TCP connection with Bob's mail server.Client side of SMTP opens TCP connection with Bob's mail server.exact_answere5738873189582margin of error+/-
+  ❓ 88766Alice's user agent sends message to her mail server; message placed in message queue.Alice's user agent sends message to her mail server; message placed in message queue.exact_answere5738873188766margin of error+/-
+  ❓ 70221Bob's mail server places the message in Bob's mailbox.Bob's mail server places the message in Bob's mailbox.exact_answere5738873170221margin of error+/-
+  ❓ 39346Alice uses her user agent to compose message and sent to Bob's email address.Alice uses her user agent to compose message and sent to Bob's email address.exact_answere5738873139346margin of error+/-
+  ❓ 17478Bob uses his user agent to read the message.Bob uses his user agent to read the message.exact_answere5738873117478margin of error+/-
+  ❓ 77916SMTP client sends Alice's message over the TCP connection.SMTP client sends Alice's message over the TCP connection.exact_answere5738873177916margin of error+/-
+  ❓ 19793Client side of SMTP opens TCP connection with Bob's mail server.Client side of SMTP opens TCP connection with Bob's mail server.exact_answerf5738873119793margin of error+/-
+  ❓ 56442Alice's user agent sends message to her mail server; message placed in message queue.Alice's user agent sends message to her mail server; message placed in message queue.exact_answerf5738873156442margin of error+/-
+  ❓ 68200Bob's mail server places the message in Bob's mailbox.Bob's mail server places the message in Bob's mailbox.exact_answerf5738873168200margin of error+/-
+  ❓ 81960Alice uses her user agent to compose message and sent to Bob's email address.Alice uses her user agent to compose message and sent to Bob's email address.exact_answerf5738873181960margin of error+/-
+  ❓ 92491Bob uses his user agent to read the message.Bob uses his user agent to read the message.exact_answerf5738873192491margin of error+/-
+  ❓ 83713SMTP client sends Alice's message over the TCP connection.SMTP client sends Alice's message over the TCP connection.exact_answerf5738873183713margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 10:
+An FTP server maintains client states.
+  ✔ Option 2: False - Correct
+  ⭕    Option 1: True - Incorrect - INCORRECT
+  ❓ 95882TrueTrueexact_answernone5738873295882margin of error+/-
+  ❓ 8626FalseFalseexact_answernone573887328626margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 11:
+If an HTTP server can send 2 objects over a single TCP connection, this is an example ofpersistentHTTP.
+  ✔ Option 3: persistent - Correct
+  ⭕    Option 1: state-conserving - Incorrect - INCORRECT
+  ⭕    Option 2: stateless - Incorrect - INCORRECT
+  ⭕    Option 4: non-persistent - Incorrect - INCORRECT
+  ❓ 55560state-conservingstate-conservingexact_answera5738784755560margin of error+/-
+  ❓ 88513statelessstatelessexact_answera5738784788513margin of error+/-
+  ❓ 15152persistentpersistentexact_answera5738784715152margin of error+/-
+  ❓ 94323non-persistentnon-persistentexact_answera5738784794323margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 12:
+The HTTP application-layer protocol utilizes theHTTPtransport-layer protocol.
+  ✔ Option 1: HTTP - Correct
+  ⭕    Option 2: TCP - Incorrect - INCORRECT
+  ⭕    Option 3: IP - Incorrect - INCORRECT
+  ⭕    Option 4: UDP - Incorrect - INCORRECT
+  ⭕    Option 5: SMTP - Incorrect - INCORRECT
+  ❓ 23349HTTPHTTPexact_answera5738782923349margin of error+/-
+  ❓ 12172TCPTCPexact_answera5738782912172margin of error+/-
+  ❓ 31939IPIPexact_answera5738782931939margin of error+/-
+  ❓ 64838UDPUDPexact_answera5738782964838margin of error+/-
+  ❓ 64880SMTPSMTPexact_answera5738782964880margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 13:
+The POP3 e-mail protocol is called aPullprotocol.
+  ✔ Option 3: Pull - Correct
+  ⭕    Option 1: Neither - Incorrect - INCORRECT
+  ⭕    Option 2: Push - Incorrect - INCORRECT
+  ⭕    Option 4: crappy - Incorrect - INCORRECT
+  ❓ 93477NeitherNeitherexact_answera5738783193477margin of error+/-
+  ❓ 80710PushPushexact_answera5738783180710margin of error+/-
+  ❓ 42902PullPullexact_answera5738783142902margin of error+/-
+  ❓ 62915crappycrappyexact_answera5738783162915margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 14:
+Consider the following:http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngThe Host Name isoregonstate.eduThe Path Nameis/admissions/sites/all/themes/doug_fir/images/osu-tag.pngThe URL ishttp://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngThe TLD isEDU
+  ✔ Option 4: oregonstate.edu - Correct
+  ✔ Option 13: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Correct
+  ✔ Option 19: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Correct
+  ✔ Option 23: EDU - Correct
+  ⭕    Option 1: http:// - Incorrect - INCORRECT
+  ⭕    Option 2: EDU - Incorrect - INCORRECT
+  ⭕    Option 3: PNG - Incorrect - INCORRECT
+  ⭕    Option 5: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 6: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 7: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 8: http:// - Incorrect - INCORRECT
+  ⭕    Option 9: EDU - Incorrect - INCORRECT
+  ⭕    Option 10: PNG - Incorrect - INCORRECT
+  ⭕    Option 11: oregonstate.edu - Incorrect - INCORRECT
+  ⭕    Option 12: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 14: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 15: http:// - Incorrect - INCORRECT
+  ⭕    Option 16: EDU - Incorrect - INCORRECT
+  ⭕    Option 17: PNG - Incorrect - INCORRECT
+  ⭕    Option 18: oregonstate.edu - Incorrect - INCORRECT
+  ⭕    Option 20: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 21: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 22: http:// - Incorrect - INCORRECT
+  ⭕    Option 24: PNG - Incorrect - INCORRECT
+  ⭕    Option 25: oregonstate.edu - Incorrect - INCORRECT
+  ⭕    Option 26: http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 27: /admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ⭕    Option 28: oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.png - Incorrect - INCORRECT
+  ❓ 77340http://http://exact_answera5738818677340margin of error+/-
+  ❓ 18105EDUEDUexact_answera5738818618105margin of error+/-
+  ❓ 36673PNGPNGexact_answera5738818636673margin of error+/-
+  ❓ 49037oregonstate.eduoregonstate.eduexact_answera5738818649037margin of error+/-
+  ❓ 91766http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pnghttp://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answera5738818691766margin of error+/-
+  ❓ 3328/admissions/sites/all/themes/doug_fir/images/osu-tag.png/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answera573881863328margin of error+/-
+  ❓ 53585oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngoregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answera5738818653585margin of error+/-
+  ❓ 60308http://http://exact_answerb5738818660308margin of error+/-
+  ❓ 86670EDUEDUexact_answerb5738818686670margin of error+/-
+  ❓ 94559PNGPNGexact_answerb5738818694559margin of error+/-
+  ❓ 54373oregonstate.eduoregonstate.eduexact_answerb5738818654373margin of error+/-
+  ❓ 27918http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pnghttp://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerb5738818627918margin of error+/-
+  ❓ 46423/admissions/sites/all/themes/doug_fir/images/osu-tag.png/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerb5738818646423margin of error+/-
+  ❓ 38934oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngoregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerb5738818638934margin of error+/-
+  ❓ 50307http://http://exact_answerc5738818650307margin of error+/-
+  ❓ 59289EDUEDUexact_answerc5738818659289margin of error+/-
+  ❓ 83097PNGPNGexact_answerc5738818683097margin of error+/-
+  ❓ 25718oregonstate.eduoregonstate.eduexact_answerc5738818625718margin of error+/-
+  ❓ 73420http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pnghttp://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerc5738818673420margin of error+/-
+  ❓ 15972/admissions/sites/all/themes/doug_fir/images/osu-tag.png/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerc5738818615972margin of error+/-
+  ❓ 22020oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngoregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerc5738818622020margin of error+/-
+  ❓ 4650http://http://exact_answerd573881864650margin of error+/-
+  ❓ 87707EDUEDUexact_answerd5738818687707margin of error+/-
+  ❓ 12482PNGPNGexact_answerd5738818612482margin of error+/-
+  ❓ 13196oregonstate.eduoregonstate.eduexact_answerd5738818613196margin of error+/-
+  ❓ 22570http://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pnghttp://oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerd5738818622570margin of error+/-
+  ❓ 10093/admissions/sites/all/themes/doug_fir/images/osu-tag.png/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerd5738818610093margin of error+/-
+  ❓ 7544oregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngoregonstate.edu/admissions/sites/all/themes/doug_fir/images/osu-tag.pngexact_answerd573881867544margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 15:
+The following is a valid IP address:130.154.1.25
+  ✔ Option 1: True - Correct
+  ⭕    Option 2: False - Incorrect - INCORRECT
+  ❓ 44158TrueTrueexact_answernone5739124644158margin of error+/-
+  ❓ 55479FalseFalseexact_answernone5739124655479margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 16:
+The IMAP/POP3 application-layer protocols utilizes theTCPtransport-layer protocol.
+  ✔ Option 2: TCP - Correct
+  ⭕    Option 1: HTTP - Incorrect - INCORRECT
+  ⭕    Option 3: IP - Incorrect - INCORRECT
+  ⭕    Option 4: UDP - Incorrect - INCORRECT
+  ⭕    Option 5: SMTP - Incorrect - INCORRECT
+  ❓ 10643HTTPHTTPexact_answera5738818410643margin of error+/-
+  ❓ 49092TCPTCPexact_answera5738818449092margin of error+/-
+  ❓ 88877IPIPexact_answera5738818488877margin of error+/-
+  ❓ 72401UDPUDPexact_answera5738818472401margin of error+/-
+  ❓ 89109SMTPSMTPexact_answera5738818489109margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 17:
+Consider the following:http://www.google.com/images/srpr/logo11w.pngThe Host Name iswww.google.comThe Path Nameis/images/srpr/logo11w.pngThe URL ishttp://www.google.com/images/srpr/logo11w.pngThe TLD isCOM
+  ✔ Option 4: www.google.com - Correct
+  ✔ Option 13: /images/srpr/logo11w.png - Correct
+  ✔ Option 19: http://www.google.com/images/srpr/logo11w.png - Correct
+  ✔ Option 23: COM - Correct
+  ⭕    Option 1: http:// - Incorrect - INCORRECT
+  ⭕    Option 2: COM - Incorrect - INCORRECT
+  ⭕    Option 3: PNG - Incorrect - INCORRECT
+  ⭕    Option 5: http://www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 6: /images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 7: www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 8: http:// - Incorrect - INCORRECT
+  ⭕    Option 9: COM - Incorrect - INCORRECT
+  ⭕    Option 10: PNG - Incorrect - INCORRECT
+  ⭕    Option 11: www.google.com - Incorrect - INCORRECT
+  ⭕    Option 12: http://www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 14: www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 15: http:// - Incorrect - INCORRECT
+  ⭕    Option 16: COM - Incorrect - INCORRECT
+  ⭕    Option 17: PNG - Incorrect - INCORRECT
+  ⭕    Option 18: www.google.com - Incorrect - INCORRECT
+  ⭕    Option 20: /images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 21: www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 22: http:// - Incorrect - INCORRECT
+  ⭕    Option 24: PNG - Incorrect - INCORRECT
+  ⭕    Option 25: www.google.com - Incorrect - INCORRECT
+  ⭕    Option 26: http://www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 27: /images/srpr/logo11w.png - Incorrect - INCORRECT
+  ⭕    Option 28: www.google.com/images/srpr/logo11w.png - Incorrect - INCORRECT
+  ❓ 66483http://http://exact_answera5738818766483margin of error+/-
+  ❓ 42730COMCOMexact_answera5738818742730margin of error+/-
+  ❓ 10453PNGPNGexact_answera5738818710453margin of error+/-
+  ❓ 69307www.google.comwww.google.comexact_answera5738818769307margin of error+/-
+  ❓ 29968http://www.google.com/images/srpr/logo11w.pnghttp://www.google.com/images/srpr/logo11w.pngexact_answera5738818729968margin of error+/-
+  ❓ 38335/images/srpr/logo11w.png/images/srpr/logo11w.pngexact_answera5738818738335margin of error+/-
+  ❓ 99239www.google.com/images/srpr/logo11w.pngwww.google.com/images/srpr/logo11w.pngexact_answera5738818799239margin of error+/-
+  ❓ 193http://http://exact_answerb57388187193margin of error+/-
+  ❓ 75797COMCOMexact_answerb5738818775797margin of error+/-
+  ❓ 39006PNGPNGexact_answerb5738818739006margin of error+/-
+  ❓ 97787www.google.comwww.google.comexact_answerb5738818797787margin of error+/-
+  ❓ 95111http://www.google.com/images/srpr/logo11w.pnghttp://www.google.com/images/srpr/logo11w.pngexact_answerb5738818795111margin of error+/-
+  ❓ 76441/images/srpr/logo11w.png/images/srpr/logo11w.pngexact_answerb5738818776441margin of error+/-
+  ❓ 82067www.google.com/images/srpr/logo11w.pngwww.google.com/images/srpr/logo11w.pngexact_answerb5738818782067margin of error+/-
+  ❓ 74331http://http://exact_answerc5738818774331margin of error+/-
+  ❓ 44033COMCOMexact_answerc5738818744033margin of error+/-
+  ❓ 24459PNGPNGexact_answerc5738818724459margin of error+/-
+  ❓ 4346www.google.comwww.google.comexact_answerc573881874346margin of error+/-
+  ❓ 52703http://www.google.com/images/srpr/logo11w.pnghttp://www.google.com/images/srpr/logo11w.pngexact_answerc5738818752703margin of error+/-
+  ❓ 53580/images/srpr/logo11w.png/images/srpr/logo11w.pngexact_answerc5738818753580margin of error+/-
+  ❓ 63610www.google.com/images/srpr/logo11w.pngwww.google.com/images/srpr/logo11w.pngexact_answerc5738818763610margin of error+/-
+  ❓ 84050http://http://exact_answerd5738818784050margin of error+/-
+  ❓ 76501COMCOMexact_answerd5738818776501margin of error+/-
+  ❓ 98432PNGPNGexact_answerd5738818798432margin of error+/-
+  ❓ 1820www.google.comwww.google.comexact_answerd573881871820margin of error+/-
+  ❓ 53935http://www.google.com/images/srpr/logo11w.pnghttp://www.google.com/images/srpr/logo11w.pngexact_answerd5738818753935margin of error+/-
+  ❓ 60986/images/srpr/logo11w.png/images/srpr/logo11w.pngexact_answerd5738818760986margin of error+/-
+  ❓ 79916www.google.com/images/srpr/logo11w.pngwww.google.com/images/srpr/logo11w.pngexact_answerd5738818779916margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 18:
+FTP is implemented over a single TCP connection.
+  ✔ Option 2: False - Correct
+  ⭕    Option 1: True - Incorrect - INCORRECT
+  ❓ 86924TrueTrueexact_answernone5738784486924margin of error+/-
+  ❓ 61102FalseFalseexact_answernone5738784461102margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 19:
+The IMAP e-mail protocol is called aPullprotocol.
+  ✔ Option 3: Pull - Correct
+  ⭕    Option 1: Neither - Incorrect - INCORRECT
+  ⭕    Option 2: Push - Incorrect - INCORRECT
+  ⭕    Option 4: crappy - Incorrect - INCORRECT
+  ❓ 85419NeitherNeitherexact_answera5738783285419margin of error+/-
+  ❓ 8414PushPushexact_answera573878328414margin of error+/-
+  ❓ 814PullPullexact_answera57387832814margin of error+/-
+  ❓ 62170crappycrappyexact_answera5738783262170margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 20:
+Consider the following:http://www.google.com/images/nav_logo195.pngThe Host Name iswww.google.comThe Path Nameis/images/nav_logo195.pngThe URL ishttp://www.google.com/images/nav_logo195.pngThe TLD isCOM
+  ✔ Option 4: www.google.com - Correct
+  ✔ Option 13: /images/nav_logo195.png - Correct
+  ✔ Option 19: http://www.google.com/images/nav_logo195.png - Correct
+  ✔ Option 23: COM - Correct
+  ⭕    Option 1: http:// - Incorrect - INCORRECT
+  ⭕    Option 2: COM - Incorrect - INCORRECT
+  ⭕    Option 3: PNG - Incorrect - INCORRECT
+  ⭕    Option 5: http://www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 6: /images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 7: www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 8: http:// - Incorrect - INCORRECT
+  ⭕    Option 9: COM - Incorrect - INCORRECT
+  ⭕    Option 10: PNG - Incorrect - INCORRECT
+  ⭕    Option 11: www.google.com - Incorrect - INCORRECT
+  ⭕    Option 12: http://www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 14: www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 15: http:// - Incorrect - INCORRECT
+  ⭕    Option 16: COM - Incorrect - INCORRECT
+  ⭕    Option 17: PNG - Incorrect - INCORRECT
+  ⭕    Option 18: www.google.com - Incorrect - INCORRECT
+  ⭕    Option 20: /images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 21: www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 22: http:// - Incorrect - INCORRECT
+  ⭕    Option 24: PNG - Incorrect - INCORRECT
+  ⭕    Option 25: www.google.com - Incorrect - INCORRECT
+  ⭕    Option 26: http://www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 27: /images/nav_logo195.png - Incorrect - INCORRECT
+  ⭕    Option 28: www.google.com/images/nav_logo195.png - Incorrect - INCORRECT
+  ❓ 77500http://http://exact_answera5738818877500margin of error+/-
+  ❓ 27335COMCOMexact_answera5738818827335margin of error+/-
+  ❓ 1705PNGPNGexact_answera573881881705margin of error+/-
+  ❓ 97330www.google.comwww.google.comexact_answera5738818897330margin of error+/-
+  ❓ 93306http://www.google.com/images/nav_logo195.pnghttp://www.google.com/images/nav_logo195.pngexact_answera5738818893306margin of error+/-
+  ❓ 12835/images/nav_logo195.png/images/nav_logo195.pngexact_answera5738818812835margin of error+/-
+  ❓ 82929www.google.com/images/nav_logo195.pngwww.google.com/images/nav_logo195.pngexact_answera5738818882929margin of error+/-
+  ❓ 50313http://http://exact_answerb5738818850313margin of error+/-
+  ❓ 26275COMCOMexact_answerb5738818826275margin of error+/-
+  ❓ 58338PNGPNGexact_answerb5738818858338margin of error+/-
+  ❓ 10948www.google.comwww.google.comexact_answerb5738818810948margin of error+/-
+  ❓ 60179http://www.google.com/images/nav_logo195.pnghttp://www.google.com/images/nav_logo195.pngexact_answerb5738818860179margin of error+/-
+  ❓ 81508/images/nav_logo195.png/images/nav_logo195.pngexact_answerb5738818881508margin of error+/-
+  ❓ 30773www.google.com/images/nav_logo195.pngwww.google.com/images/nav_logo195.pngexact_answerb5738818830773margin of error+/-
+  ❓ 36134http://http://exact_answerc5738818836134margin of error+/-
+  ❓ 31170COMCOMexact_answerc5738818831170margin of error+/-
+  ❓ 49303PNGPNGexact_answerc5738818849303margin of error+/-
+  ❓ 15736www.google.comwww.google.comexact_answerc5738818815736margin of error+/-
+  ❓ 33270http://www.google.com/images/nav_logo195.pnghttp://www.google.com/images/nav_logo195.pngexact_answerc5738818833270margin of error+/-
+  ❓ 88351/images/nav_logo195.png/images/nav_logo195.pngexact_answerc5738818888351margin of error+/-
+  ❓ 78237www.google.com/images/nav_logo195.pngwww.google.com/images/nav_logo195.pngexact_answerc5738818878237margin of error+/-
+  ❓ 69607http://http://exact_answerd5738818869607margin of error+/-
+  ❓ 33253COMCOMexact_answerd5738818833253margin of error+/-
+  ❓ 28895PNGPNGexact_answerd5738818828895margin of error+/-
+  ❓ 75254www.google.comwww.google.comexact_answerd5738818875254margin of error+/-
+  ❓ 88793http://www.google.com/images/nav_logo195.pnghttp://www.google.com/images/nav_logo195.pngexact_answerd5738818888793margin of error+/-
+  ❓ 98735/images/nav_logo195.png/images/nav_logo195.pngexact_answerd5738818898735margin of error+/-
+  ❓ 11269www.google.com/images/nav_logo195.pngwww.google.com/images/nav_logo195.pngexact_answerd5738818811269margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 21:
+Consider the following:http://www.oregon.gov/images/logo.pngThe Host Name iswww.oregon.govThe Path Nameis/images/logo.pngThe URL ishttp://www.oregon.gov/images/logo.pngThe TLD isGOV
+  ✔ Option 4: www.oregon.gov - Correct
+  ✔ Option 13: /images/logo.png - Correct
+  ✔ Option 19: http://www.oregon.gov/images/logo.png - Correct
+  ✔ Option 23: GOV - Correct
+  ⭕    Option 1: http:// - Incorrect - INCORRECT
+  ⭕    Option 2: GOV - Incorrect - INCORRECT
+  ⭕    Option 3: PNG - Incorrect - INCORRECT
+  ⭕    Option 5: http://www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 6: /images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 7: www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 8: http:// - Incorrect - INCORRECT
+  ⭕    Option 9: GOV - Incorrect - INCORRECT
+  ⭕    Option 10: PNG - Incorrect - INCORRECT
+  ⭕    Option 11: www.oregon.gov - Incorrect - INCORRECT
+  ⭕    Option 12: http://www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 14: www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 15: http:// - Incorrect - INCORRECT
+  ⭕    Option 16: GOV - Incorrect - INCORRECT
+  ⭕    Option 17: PNG - Incorrect - INCORRECT
+  ⭕    Option 18: www.oregon.gov - Incorrect - INCORRECT
+  ⭕    Option 20: /images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 21: www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 22: http:// - Incorrect - INCORRECT
+  ⭕    Option 24: PNG - Incorrect - INCORRECT
+  ⭕    Option 25: www.oregon.gov - Incorrect - INCORRECT
+  ⭕    Option 26: http://www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 27: /images/logo.png - Incorrect - INCORRECT
+  ⭕    Option 28: www.oregon.gov/images/logo.png - Incorrect - INCORRECT
+  ❓ 62579http://http://exact_answera5738783662579margin of error+/-
+  ❓ 12124GOVGOVexact_answera5738783612124margin of error+/-
+  ❓ 33534PNGPNGexact_answera5738783633534margin of error+/-
+  ❓ 93778www.oregon.govwww.oregon.govexact_answera5738783693778margin of error+/-
+  ❓ 83875http://www.oregon.gov/images/logo.pnghttp://www.oregon.gov/images/logo.pngexact_answera5738783683875margin of error+/-
+  ❓ 77953/images/logo.png/images/logo.pngexact_answera5738783677953margin of error+/-
+  ❓ 56626www.oregon.gov/images/logo.pngwww.oregon.gov/images/logo.pngexact_answera5738783656626margin of error+/-
+  ❓ 67490http://http://exact_answerb5738783667490margin of error+/-
+  ❓ 24592GOVGOVexact_answerb5738783624592margin of error+/-
+  ❓ 20810PNGPNGexact_answerb5738783620810margin of error+/-
+  ❓ 4865www.oregon.govwww.oregon.govexact_answerb573878364865margin of error+/-
+  ❓ 61879http://www.oregon.gov/images/logo.pnghttp://www.oregon.gov/images/logo.pngexact_answerb5738783661879margin of error+/-
+  ❓ 27761/images/logo.png/images/logo.pngexact_answerb5738783627761margin of error+/-
+  ❓ 71689www.oregon.gov/images/logo.pngwww.oregon.gov/images/logo.pngexact_answerb5738783671689margin of error+/-
+  ❓ 98311http://http://exact_answerc5738783698311margin of error+/-
+  ❓ 62224GOVGOVexact_answerc5738783662224margin of error+/-
+  ❓ 85400PNGPNGexact_answerc5738783685400margin of error+/-
+  ❓ 82726www.oregon.govwww.oregon.govexact_answerc5738783682726margin of error+/-
+  ❓ 85615http://www.oregon.gov/images/logo.pnghttp://www.oregon.gov/images/logo.pngexact_answerc5738783685615margin of error+/-
+  ❓ 26661/images/logo.png/images/logo.pngexact_answerc5738783626661margin of error+/-
+  ❓ 96972www.oregon.gov/images/logo.pngwww.oregon.gov/images/logo.pngexact_answerc5738783696972margin of error+/-
+  ❓ 43295http://http://exact_answerd5738783643295margin of error+/-
+  ❓ 83087GOVGOVexact_answerd5738783683087margin of error+/-
+  ❓ 83823PNGPNGexact_answerd5738783683823margin of error+/-
+  ❓ 84064www.oregon.govwww.oregon.govexact_answerd5738783684064margin of error+/-
+  ❓ 66558http://www.oregon.gov/images/logo.pnghttp://www.oregon.gov/images/logo.pngexact_answerd5738783666558margin of error+/-
+  ❓ 78514/images/logo.png/images/logo.pngexact_answerd5738783678514margin of error+/-
+  ❓ 86178www.oregon.gov/images/logo.pngwww.oregon.gov/images/logo.pngexact_answerd5738783686178margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 22:
+A client’s browser sends an HTTP request to a website. The website responds with a handshake and sets up a TCP connection. The connection setup takes 2 sec, including the RTT. The browser then sends the request for the website’s index file. The index file references2additional images, which are to be requested/downloaded by the client’s browser. How many requests (including the initial request) must be sent by the browser…With non-persistent HTTP?3requestsWith persistent HTTP?3requests
+  ✔ Option 3: 3 - Correct
+  ✔ Option 23: 3 - Correct
+  ⭕    Option 1: 1 - Incorrect - INCORRECT
+  ⭕    Option 2: 2 - Incorrect - INCORRECT
+  ⭕    Option 4: 4 - Incorrect - INCORRECT
+  ⭕    Option 5: 5 - Incorrect - INCORRECT
+  ⭕    Option 6: 6 - Incorrect - INCORRECT
+  ⭕    Option 7: 7 - Incorrect - INCORRECT
+  ⭕    Option 8: 8 - Incorrect - INCORRECT
+  ⭕    Option 9: 9 - Incorrect - INCORRECT
+  ⭕    Option 10: 10 - Incorrect - INCORRECT
+  ⭕    Option 11: 11 - Incorrect - INCORRECT
+  ⭕    Option 12: 12 - Incorrect - INCORRECT
+  ⭕    Option 13: 13 - Incorrect - INCORRECT
+  ⭕    Option 14: 14 - Incorrect - INCORRECT
+  ⭕    Option 15: 15 - Incorrect - INCORRECT
+  ⭕    Option 16: 16 - Incorrect - INCORRECT
+  ⭕    Option 17: 17 - Incorrect - INCORRECT
+  ⭕    Option 18: 18 - Incorrect - INCORRECT
+  ⭕    Option 19: 19 - Incorrect - INCORRECT
+  ⭕    Option 20: 20 - Incorrect - INCORRECT
+  ⭕    Option 21: 1 - Incorrect - INCORRECT
+  ⭕    Option 22: 2 - Incorrect - INCORRECT
+  ⭕    Option 24: 4 - Incorrect - INCORRECT
+  ⭕    Option 25: 5 - Incorrect - INCORRECT
+  ⭕    Option 26: 6 - Incorrect - INCORRECT
+  ⭕    Option 27: 7 - Incorrect - INCORRECT
+  ⭕    Option 28: 8 - Incorrect - INCORRECT
+  ⭕    Option 29: 9 - Incorrect - INCORRECT
+  ⭕    Option 30: 10 - Incorrect - INCORRECT
+  ⭕    Option 31: 11 - Incorrect - INCORRECT
+  ⭕    Option 32: 12 - Incorrect - INCORRECT
+  ⭕    Option 33: 13 - Incorrect - INCORRECT
+  ⭕    Option 34: 14 - Incorrect - INCORRECT
+  ⭕    Option 35: 15 - Incorrect - INCORRECT
+  ⭕    Option 36: 16 - Incorrect - INCORRECT
+  ⭕    Option 37: 17 - Incorrect - INCORRECT
+  ⭕    Option 38: 18 - Incorrect - INCORRECT
+  ⭕    Option 39: 19 - Incorrect - INCORRECT
+  ⭕    Option 40: 20 - Incorrect - INCORRECT
+  ❓ 9448811exact_answera5738819194488margin of error+/-
+  ❓ 2928622exact_answera5738819129286margin of error+/-
+  ❓ 2648433exact_answera5738819126484margin of error+/-
+  ❓ 3937944exact_answera5738819139379margin of error+/-
+  ❓ 9845955exact_answera5738819198459margin of error+/-
+  ❓ 6433666exact_answera5738819164336margin of error+/-
+  ❓ 1307977exact_answera5738819113079margin of error+/-
+  ❓ 6191788exact_answera5738819161917margin of error+/-
+  ❓ 6055699exact_answera5738819160556margin of error+/-
+  ❓ 94391010exact_answera573881919439margin of error+/-
+  ❓ 972991111exact_answera5738819197299margin of error+/-
+  ❓ 143221212exact_answera5738819114322margin of error+/-
+  ❓ 188741313exact_answera5738819118874margin of error+/-
+  ❓ 101971414exact_answera5738819110197margin of error+/-
+  ❓ 343701515exact_answera5738819134370margin of error+/-
+  ❓ 639221616exact_answera5738819163922margin of error+/-
+  ❓ 140531717exact_answera5738819114053margin of error+/-
+  ❓ 159561818exact_answera5738819115956margin of error+/-
+  ❓ 943091919exact_answera5738819194309margin of error+/-
+  ❓ 354122020exact_answera5738819135412margin of error+/-
+  ❓ 1670311exact_answerb5738819116703margin of error+/-
+  ❓ 4149122exact_answerb5738819141491margin of error+/-
+  ❓ 8379233exact_answerb5738819183792margin of error+/-
+  ❓ 3957744exact_answerb5738819139577margin of error+/-
+  ❓ 1679855exact_answerb5738819116798margin of error+/-
+  ❓ 5550466exact_answerb5738819155504margin of error+/-
+  ❓ 2827677exact_answerb5738819128276margin of error+/-
+  ❓ 1337388exact_answerb5738819113373margin of error+/-
+  ❓ 9068099exact_answerb5738819190680margin of error+/-
+  ❓ 248691010exact_answerb5738819124869margin of error+/-
+  ❓ 31281111exact_answerb573881913128margin of error+/-
+  ❓ 60651212exact_answerb573881916065margin of error+/-
+  ❓ 691811313exact_answerb5738819169181margin of error+/-
+  ❓ 12161414exact_answerb573881911216margin of error+/-
+  ❓ 891861515exact_answerb5738819189186margin of error+/-
+  ❓ 627721616exact_answerb5738819162772margin of error+/-
+  ❓ 780801717exact_answerb5738819178080margin of error+/-
+  ❓ 467191818exact_answerb5738819146719margin of error+/-
+  ❓ 257141919exact_answerb5738819125714margin of error+/-
+  ❓ 454312020exact_answerb5738819145431margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 23:
+A client’s browser sends an HTTP request to a website. The website responds with a handshake and sets up a TCP connection. The connection setup takes 2 sec, including the RTT. The browser then sends the request for the website’s index file. The index file references4additional images, which are to be requested/downloaded by the client’s browser. How many requests (including the initial request) must be sent by the browser…With non-persistent HTTP?5requestsWith persistent HTTP?5requests
+  ✔ Option 5: 5 - Correct
+  ✔ Option 25: 5 - Correct
+  ⭕    Option 1: 1 - Incorrect - INCORRECT
+  ⭕    Option 2: 2 - Incorrect - INCORRECT
+  ⭕    Option 3: 3 - Incorrect - INCORRECT
+  ⭕    Option 4: 4 - Incorrect - INCORRECT
+  ⭕    Option 6: 6 - Incorrect - INCORRECT
+  ⭕    Option 7: 7 - Incorrect - INCORRECT
+  ⭕    Option 8: 8 - Incorrect - INCORRECT
+  ⭕    Option 9: 9 - Incorrect - INCORRECT
+  ⭕    Option 10: 10 - Incorrect - INCORRECT
+  ⭕    Option 11: 11 - Incorrect - INCORRECT
+  ⭕    Option 12: 12 - Incorrect - INCORRECT
+  ⭕    Option 13: 13 - Incorrect - INCORRECT
+  ⭕    Option 14: 14 - Incorrect - INCORRECT
+  ⭕    Option 15: 15 - Incorrect - INCORRECT
+  ⭕    Option 16: 16 - Incorrect - INCORRECT
+  ⭕    Option 17: 17 - Incorrect - INCORRECT
+  ⭕    Option 18: 18 - Incorrect - INCORRECT
+  ⭕    Option 19: 19 - Incorrect - INCORRECT
+  ⭕    Option 20: 20 - Incorrect - INCORRECT
+  ⭕    Option 21: 1 - Incorrect - INCORRECT
+  ⭕    Option 22: 2 - Incorrect - INCORRECT
+  ⭕    Option 23: 3 - Incorrect - INCORRECT
+  ⭕    Option 24: 4 - Incorrect - INCORRECT
+  ⭕    Option 26: 6 - Incorrect - INCORRECT
+  ⭕    Option 27: 7 - Incorrect - INCORRECT
+  ⭕    Option 28: 8 - Incorrect - INCORRECT
+  ⭕    Option 29: 9 - Incorrect - INCORRECT
+  ⭕    Option 30: 10 - Incorrect - INCORRECT
+  ⭕    Option 31: 11 - Incorrect - INCORRECT
+  ⭕    Option 32: 12 - Incorrect - INCORRECT
+  ⭕    Option 33: 13 - Incorrect - INCORRECT
+  ⭕    Option 34: 14 - Incorrect - INCORRECT
+  ⭕    Option 35: 15 - Incorrect - INCORRECT
+  ⭕    Option 36: 16 - Incorrect - INCORRECT
+  ⭕    Option 37: 17 - Incorrect - INCORRECT
+  ⭕    Option 38: 18 - Incorrect - INCORRECT
+  ⭕    Option 39: 19 - Incorrect - INCORRECT
+  ⭕    Option 40: 20 - Incorrect - INCORRECT
+  ❓ 6491611exact_answera5739124764916margin of error+/-
+  ❓ 2698022exact_answera5739124726980margin of error+/-
+  ❓ 3563233exact_answera5739124735632margin of error+/-
+  ❓ 7424944exact_answera5739124774249margin of error+/-
+  ❓ 6977755exact_answera5739124769777margin of error+/-
+  ❓ 4527166exact_answera5739124745271margin of error+/-
+  ❓ 9320977exact_answera5739124793209margin of error+/-
+  ❓ 2007288exact_answera5739124720072margin of error+/-
+  ❓ 6958299exact_answera5739124769582margin of error+/-
+  ❓ 180871010exact_answera5739124718087margin of error+/-
+  ❓ 18921111exact_answera573912471892margin of error+/-
+  ❓ 778701212exact_answera5739124777870margin of error+/-
+  ❓ 746381313exact_answera5739124774638margin of error+/-
+  ❓ 599361414exact_answera5739124759936margin of error+/-
+  ❓ 563711515exact_answera5739124756371margin of error+/-
+  ❓ 810041616exact_answera5739124781004margin of error+/-
+  ❓ 941081717exact_answera5739124794108margin of error+/-
+  ❓ 21541818exact_answera573912472154margin of error+/-
+  ❓ 915411919exact_answera5739124791541margin of error+/-
+  ❓ 952452020exact_answera5739124795245margin of error+/-
+  ❓ 4256711exact_answerb5739124742567margin of error+/-
+  ❓ 5208522exact_answerb5739124752085margin of error+/-
+  ❓ 5833933exact_answerb5739124758339margin of error+/-
+  ❓ 9112044exact_answerb5739124791120margin of error+/-
+  ❓ 401655exact_answerb573912474016margin of error+/-
+  ❓ 3192066exact_answerb5739124731920margin of error+/-
+  ❓ 6870077exact_answerb5739124768700margin of error+/-
+  ❓ 961888exact_answerb573912479618margin of error+/-
+  ❓ 2322899exact_answerb5739124723228margin of error+/-
+  ❓ 607111010exact_answerb5739124760711margin of error+/-
+  ❓ 493541111exact_answerb5739124749354margin of error+/-
+  ❓ 115201212exact_answerb5739124711520margin of error+/-
+  ❓ 311313exact_answerb5739124731margin of error+/-
+  ❓ 295081414exact_answerb5739124729508margin of error+/-
+  ❓ 937511515exact_answerb5739124793751margin of error+/-
+  ❓ 513701616exact_answerb5739124751370margin of error+/-
+  ❓ 636071717exact_answerb5739124763607margin of error+/-
+  ❓ 12121818exact_answerb573912471212margin of error+/-
+  ❓ 391211919exact_answerb5739124739121margin of error+/-
+  ❓ 292852020exact_answerb5739124729285margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 24:
+Suppose an HTTP server sends the following HTTP response message a client:HTTP/1.0 200 OKDate: Wed, 09 Sep 2020 23:46:21 +0000Server: Apache/2.2.3 (CentOS)Last-Modified: Wed, 09 Sep 2020 23:51:41 +0000ETag:17dc6-a5c-bf716880.Content-Length: 418Connection: CloseContent-type: image/htmlWill the web server close the TCP connection after sending this message?
+  ✔ Option 1: Yes, because this is HTTP 1.0 - Correct
+  ⭕    Option 2: No, this is a persistent connection, and so the server will keep the TCP connection open. - Incorrect - INCORRECT
+  ⭕    Option 3: There’s not enough information to answer this question. - Incorrect - INCORRECT
+  ❓ 69402Yes, because this is HTTP 1.0Yes, because this is HTTP 1.0exact_answernone5738819369402margin of error+/-
+  ❓ 66892No, this is a persistent connection, and so the server will keep the TCP connection open.No, this is a persistent connection, and so the server will keep the TCP connection open.exact_answernone5738819366892margin of error+/-
+  ❓ 9796There’s not enough information to answer this question.There’s not enough information to answer this question.exact_answernone573881939796margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 25:
+Which of the following are changes between HTTP 1.1 and HTTP/2? Note: select one or more answers.
+  ✔ Option 2: HTTP/2 allows objects in a persistent connection to be sent in a client-specified priority order. - Correct
+  ✔ Option 3: HTTP/2 allows a large object to be broken down into smaller pieces, and the transmission of those pieces to be interleaved with transmission other smaller objects, thus preventing a large object from forcing many smaller objects to wait their turn for transmission. - Correct
+  ⭕    Option 1: HTTP/2 has many new HTTP methods and status codes. - Incorrect - INCORRECT
+  ⭕    Option 4: HTTP/2 provides enhanced security by using transport layer security (TLS). - Incorrect - INCORRECT
+  ❓ 2572HTTP/2 has many new HTTP methods and status codes.HTTP/2 has many new HTTP methods and status codes.exact_answernone573881922572margin of error+/-
+  ❓ 39615HTTP/2 allows objects in a persistent connection to be sent in a client-specified priority order.HTTP/2 allows objects in a persistent connection to be sent in a client-specified priority order.HTTP/2 allows objects in a persistent connection to be sent in a client-specified priority order.HTTP/2 allows objects in a persistent connection to be sent in a client-specified priority order.Your Answer:(You left this blank)exact_answernone5738819239615margin of error+/-
+  ❓ 87050HTTP/2 allows a large object to be broken down into smaller pieces, and the transmission of those pieces to be interleaved with transmission other smaller objects, thus preventing a large object from forcing many smaller objects to wait their turn for transmission.HTTP/2 allows a large object to be broken down into smaller pieces, and the transmission of those pieces to be interleaved with transmission  other smaller objects, thus preventing a large object from forcing many smaller objects to wait their turn for transmission.HTTP/2 allows a large object to be broken down into smaller pieces, and the transmission of those pieces to be interleaved with transmission other smaller objects, thus preventing a large object from forcing many smaller objects to wait their turn for transmission.HTTP/2 allows a large object to be broken down into smaller pieces, and the transmission of those pieces to be interleaved with transmission  other smaller objects, thus preventing a large object from forcing many smaller objects to wait their turn for transmission.Your Answer:(You left this blank)exact_answernone5738819287050margin of error+/-
+  ❓ 25349HTTP/2 provides enhanced security by using transport layer security (TLS).HTTP/2 provides enhanced security by using transport layer security (TLS).exact_answernone5738819225349margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 26:
+We learned that in HTTP web browser caching, HTTP local web server caching, and in local DNS caching, that a user benefits (e.g., shorter delays over the case of no caching) from finding a local/nearby copy of a requested item. In which of the following forms of caching does a user benefit from its not only from its own recent requests (and cached replies)but also from recent requests made from other users?
+  ✔ Option 1: Local DNS server caching - Correct
+  ✔ Option 3: HTTP local web caching - Correct
+  ⭕    Option 2: HTTP browser caching - Incorrect - INCORRECT
+  ❓ 83174Local DNS server cachingLocal DNS server cachingLocal DNS server cachingLocal DNS server cachingYour Answer:(You left this blank)exact_answernone5738819683174margin of error+/-
+  ❓ 36301HTTP browser cachingHTTP browser cachingexact_answernone5738819636301margin of error+/-
+  ❓ 20243HTTP local web cachingHTTP local web cachingHTTP local web cachingHTTP local web cachingYour Answer:(You left this blank)exact_answernone5738819620243margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 27:
+Match the function of a server to a given type of DNS server in the  DNS server hierarchy.
+  ✔ Option 1: Provides authoritative hostname to IP mappings for organization’s named hosts. - Correct
+  ✔ Option 2: Replies to DNS query by local host, by contacting other DNS servers to answer the query. - Correct
+  ✔ Option 3: Responsible for a domain (e.g., *.com, *.edu); knows how to contact authoritative name servers. - Correct
+  ✔ Option 4: Highest level of the DNS hierarchy, knows how to reach servers responsible for a given domain (e.g., *.com, *.edu). - Correct
+  ❓ 7375Provides authoritative hostname to IP mappings for organization’s named hosts.Provides authoritative hostname to IP mappings for organization’s named hosts.Authoritative DNS serverexact_answernone5738785473755492margin of error+/-
+  ❓ 6630Replies to DNS query by local host, by contacting other DNS servers to answer the query.Replies to DNS query by local host, by contacting other DNS servers to answer the query.Local DNS serverexact_answernone5738785466309434margin of error+/-
+  ❓ 5794Responsible for a domain (e.g., *.com, *.edu); knows how to contact authoritative name servers.Responsible for a domain (e.g., *.com, *.edu); knows how to contact authoritative name servers.Top Level Domain (TLD) serversexact_answernone5738785457944956margin of error+/-
+  ❓ 6221Highest level of the DNS hierarchy, knows how to reach servers responsible for a given domain (e.g., *.com, *.edu).Highest level of the DNS hierarchy, knows how to reach servers responsible for a given domain (e.g., *.com, *.edu).DNS root serversexact_answernone5738785462218599margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 28:
+What is the purpose of a cookie value in the HTTP GET request?
+  ✔ Option 4: The cookie value itself doesn't mean anything. It is just a value that was returned by a web server to this client during an earlier interaction. - Correct
+  ⭕    Option 1: The cookie value encodes the format of the reply preferred by the client in the response to this GET request. - Incorrect - INCORRECT
+  ⭕    Option 2: The cookie value indicates whether the user wants to use HTTP/1, HTTP/1.1, or HTTP/2 for this GET request. - Incorrect - INCORRECT
+  ⭕    Option 3: The cookie value is an encoding of a user email address associated with the GET request. - Incorrect - INCORRECT
+  ⭕    Option 5: The cookie value encodes a default set of preferences that the user has previously specified for this web site. - Incorrect - INCORRECT
+  ❓ 24783The cookie value encodes the format of the reply preferred by the client in the response to this GET request.The cookie value encodes the format of the reply preferred by the client in the response to this GET request.exact_answernone5738873524783margin of error+/-
+  ❓ 17737The cookie value indicates whether the user wants to use HTTP/1, HTTP/1.1, or HTTP/2 for this GET request.The cookie value indicates whether the user wants to use HTTP/1, HTTP/1.1, or HTTP/2 for this GET request.The cookie value indicates whether the user wants to use HTTP/1, HTTP/1.1, or HTTP/2 for this GET request.The cookie value indicates whether the user wants to use HTTP/1, HTTP/1.1, or HTTP/2 for this GET request.exact_answernone5738873517737margin of error+/-
+  ❓ 25954The cookie value is an encoding of a user email address associated with the GET request.The cookie value is an encoding of a user email address associated with the GET request.The cookie value is an encoding of a user email address associated with the GET request.The cookie value is an encoding of a user email address associated with the GET request.exact_answernone5738873525954margin of error+/-
+  ❓ 42797The cookie value itself doesn't mean anything. It is just a value that was returned by a web server to this client during an earlier interaction.The cookie value itself doesn't mean anything.  It is just a value that was returned by a web server to this client during an earlier interaction.The cookie value itself doesn't mean anything. It is just a value that was returned by a web server to this client during an earlier interaction.The cookie value itself doesn't mean anything.  It is just a value that was returned by a web server to this client during an earlier interaction.exact_answernone5738873542797margin of error+/-
+  ❓ 64206The cookie value encodes a default set of preferences that the user has previously specified for this web site.The cookie value encodes a default set of preferences that the user has previously specified for this web site.exact_answernone5738873564206margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 29:
+What is the value of caching in the local DNS name server? Check all that apply.
+  ✔ Option 1: DNS caching provides for faster replies, if the reply to the query is found in the cache. - Correct
+  ✔ Option 2: DNS caching results in less load elsewhere in DNS, when the reply to a query is found in the local cache. - Correct
+  ⭕    Option 3: DNS caching provides prioritized access to the root servers, since the DNS request is from a local DNS cache. - Incorrect - INCORRECT
+  ⭕    Option 4: DNS caching provides the ability to serve as authoritative name server for multiple organizations. - Incorrect - INCORRECT
+  ❓ 75739DNS caching provides for faster replies, if the reply to the query is found in the cache.DNS caching provides for faster replies, if the reply to the query is found in the cache.Your Answer:(You left this blank)exact_answernone5738785575739margin of error+/-
+  ❓ 82484DNS caching results in less load elsewhere in DNS, when the reply to a query is found in the local cache.DNS caching results in less load elsewhere in DNS, when the reply to a query is found in the local cache.Your Answer:(You left this blank)exact_answernone5738785582484margin of error+/-
+  ❓ 86785DNS caching provides prioritized access to the root servers, since the DNS request is from a local DNS cache.DNS caching provides prioritized access to the root servers, since the DNS request is from a local DNS cache.exact_answernone5738785586785margin of error+/-
+  ❓ 26998DNS caching provides the ability to serve as authoritative name server for multiple organizations.DNS caching provides the ability to serve as authoritative name server for multiple organizations.exact_answernone5738785526998margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 30:
+What is the purpose of the conditional HTTP GET request message?
+  ✔ Option 1: To allow a server to only send the requested object to the client if this object has changed since the server last sent this object to the client. - Correct
+  ⭕    Option 2: To allow a server to only send the requested object to the client if the client is authorized to receive that object. - Incorrect - INCORRECT
+  ⭕    Option 3: To allow a server to only send the requested object to the client if the server is not overloaded. - Incorrect - INCORRECT
+  ⭕    Option 4: To allow a server to only send the requested object to the client if the client has never requested that object before. - Incorrect - INCORRECT
+  ❓ 40554To allow a server to only send the requested object to the client if this object has changed since the server last sent this object to the client.To allow a server to only send the requested object to the client if this object has changed since the server last sent this object to the client.exact_answernone5739127740554margin of error+/-
+  ❓ 81178To allow a server to only send the requested object to the client if the client is authorized to receive that object.To allow a server to only send the requested object to the client if the client is authorized to receive that object.exact_answernone5739127781178margin of error+/-
+  ❓ 77369To allow a server to only send the requested object to the client if the server is not overloaded.To allow a server to only send the requested object to the client if the server is not overloaded.exact_answernone5739127777369margin of error+/-
+  ❓ 43195To allow a server to only send the requested object to the client if the client has never requested that object before.To allow a server to only send the requested object to the client if the client has never requested that object before.exact_answernone5739127743195margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 31:
+Consider the following scenario, in which a Web browser (lower) connects to a web server (above).  There is no web cache in this question (so make sure you understand the difference between a browser cache and a web cache).  Assume that the total Round Trip Time (RTT) propagation and queueing delay between the browser and web server is 200 msec.Suppose that whenever the browser makes an HTTP request to the server for any HTTP object on that site, that the browser has a copy of that object in its cache (the user loves to get content  from that site!), but that copy may or may not be up-to-date in its cache (and so the browser requests the object using the HTTPIf-Modified-Sinceheader field).  Assume that the time taken to transmit any HTTP reply (by the sender into the TCP connection) that contains a requested object in the body of an HTTP reply is 50 msec (again, for all objects), but that the time taken to transmit a HTTP reply with a “304 Not Modified” reply code without an included object is negligible (e.g., zero). You can assume that a TCP connection has always been set up, so do not include that delay in your answer below.Suppose that 90% of the HTTP requests are for objects that are up-to-date in the browser's cache, and so 10% are cache "misses" and will require the up-to-date object to be downloaded, and browser-cached. What is the average time (over all requests that the browser makes to this site) from when the browser issues the initial HTTP GET request until it is able to display the requested object?
+  ✔ Option 5: 400 msec - Correct
+  ⭕    Option 1: 205 msec - Incorrect - INCORRECT
+  ⭕    Option 2: 200 msec - Incorrect - INCORRECT
+  ⭕    Option 3: 250 msec - Incorrect - INCORRECT
+  ⭕    Option 4: 225 msec - Incorrect - INCORRECT
+  ⭕    Option 6: 500 msec - Incorrect - INCORRECT
+  ⭕    Option 7: 350 msec - Incorrect - INCORRECT
+  ❓ 47828205 msec205 msecexact_answernone5739030647828margin of error+/-
+  ❓ 15896200 msec200 msecexact_answernone5739030615896margin of error+/-
+  ❓ 77988250 msec250 msecexact_answernone5739030677988margin of error+/-
+  ❓ 579225 msec225 msecexact_answernone57390306579margin of error+/-
+  ❓ 78534400 msec400 msecexact_answernone5739030678534margin of error+/-
+  ❓ 4733500 msec500 msecexact_answernone573903064733margin of error+/-
+  ❓ 88426350 msec350 msecexact_answernone5739030688426margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 32:
+Consider the following scenario, in which a Web browser (lower) connects to a web server (above).  There is also a local web cache in the bowser’s access network.  In this question, we will ignore browser caching (so make sure you understand the difference between a browser cache and a web cache). In this question, we want to focus on the utilization of the 100 Mbps access link between the two networks.Suppose that each requested object is 10 Mbits, and that 9 HTTP requests per second are being made to origin servers from the clients in the access network.  Suppose that 80% of the requested objects by the client are found in the local web cache. What is theutilizationof the access link?
+  ✔ Option 1: 0.18 - Correct
+  ⭕    Option 2: 0.45 - Incorrect - INCORRECT
+  ⭕    Option 3: 0.72 - Incorrect - INCORRECT
+  ⭕    Option 4: 1.0 - Incorrect - INCORRECT
+  ⭕    Option 5: 250 msec - Incorrect - INCORRECT
+  ⭕    Option 6: 0.2 msec - Incorrect - INCORRECT
+  ⭕    Option 7: 0.8 - Incorrect - INCORRECT
+  ❓ 361100.180.18exact_answernone5738786336110margin of error+/-
+  ❓ 170310.450.45exact_answernone5738786317031margin of error+/-
+  ❓ 753800.720.72exact_answernone5738786375380margin of error+/-
+  ❓ 269671.01.0exact_answernone5738786326967margin of error+/-
+  ❓ 86362250 msec250 msecexact_answernone5738786386362margin of error+/-
+  ❓ 912540.2 msec0.2 msecexact_answernone5738786391254margin of error+/-
+  ❓ 409460.80.8exact_answernone5738786340946margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 33:
+Consider the following scenario, in which a Web browser (lower) connects to a web server (above).  There is no web cache in this question (so make sure you understand the difference between a browser cache and a web cache).  Assume that the total Round Trip Time (RTT) propagation and queueing delay between the browser and web server is 200 msec.Suppose that the browser makes an HTTP request to the server for an HTTP object, that the browser has a copy of that object in its cache, but that copy may or may not be up-to-date in its cache (and so the browser requests the object using the HTTPIf-Modified-Sinceheader field).  Assume that the time taken to transmit an HTTP reply (by the sender into the TCP connection) that contains a requested object in the body of an HTTP reply is 50 msec, but that the time taken to transmit a HTTP reply with a “304 Not Modified” reply code without an included object is negligible (e.g., zero). You can assume that a TCP connection has already been set up, so do not include that delay in your answer below.What is the time from when the browser issues the initial HTTP GET request until it is able to display the requested object in the case that the browserdoeshave the requested object in its browser cache?
+  ✔ Option 3: 200 msec - Correct
+  ⭕    Option 1: 250 msec - Incorrect - INCORRECT
+  ⭕    Option 2: 100 msec - Incorrect - INCORRECT
+  ⭕    Option 4: 500 msec - Incorrect - INCORRECT
+  ⭕    Option 5: 550 msec - Incorrect - INCORRECT
+  ⭕    Option 6: 300 msec - Incorrect - INCORRECT
+  ⭕    Option 7: 350 msec - Incorrect - INCORRECT
+  ❓ 31054250 msec250 msecexact_answernone5739125031054margin of error+/-
+  ❓ 97364100 msec100 msecexact_answernone5739125097364margin of error+/-
+  ❓ 49787200 msec200 msecexact_answernone5739125049787margin of error+/-
+  ❓ 85048500 msec500 msecexact_answernone5739125085048margin of error+/-
+  ❓ 91895550 msec550 msecexact_answernone5739125091895margin of error+/-
+  ❓ 54577300 msec300 msecexact_answernone5739125054577margin of error+/-
+  ❓ 19371350 msec350 msecexact_answernone5739125019371margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 34:
+Consider again the scenario shown in the figure below,Assume that the client and server have not communicated before, that the client knows the server's IP address, and that HTTP 1.1 is being used. Now assume that the client has a browser cache (but no web cache). The browser cache is initially empty, and all GET request messages have anIf-Modified-Sincefield.The HTTP client:again makes a first GET request to the leftmost server for a base page that it has never before requested; the base page contains a reference to an embedded jpeg object.makes a second GET request for that embedded object.then makes a third GET request (a very short time later) for thesameembedded jpeg object (with that third GET request having an  If-Modified-Since field).Let's focus onjust this thirdHTTP GET request.How many round trip times (RTTs) are needed from when the browser issues thethirdHTTP GET request, until the reply for that third GET request is received?You should take into account any TCP setup time (if any) required before an HTTP GET is  sent by the client, the time needed for the server to transmit a requested object (if any), and any propagation delays (if any)not accounted for in these other amounts of time.
+  ✔ Option 4: 2 RTT - Correct
+  ⭕    Option 1: 0 RTT - Incorrect - INCORRECT
+  ⭕    Option 2: 1.0 RTT - Incorrect - INCORRECT
+  ⭕    Option 3: 1.25 RTT - Incorrect - INCORRECT
+  ⭕    Option 5: 2.25 RTT - Incorrect - INCORRECT
+  ❓ 528320 RTT0 RTTexact_answernone5738819952832margin of error+/-
+  ❓ 766771.0 RTT1.0 RTTexact_answernone5738819976677margin of error+/-
+  ❓ 890341.25 RTT1.25 RTTexact_answernone5738819989034margin of error+/-
+  ❓ 567592 RTT2 RTTexact_answernone5738819956759margin of error+/-
+  ❓ 857072.25 RTT2.25  RTT2.25 RTT2.25  RTTexact_answernone5738819985707margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 35:
+Suppose that the local DNS server caches all information coming in from all root, TLD, and authoritative DNS servers for 20 time units. (Thus, for example, when a root server returns the name and address of a TLD server for .com, the cache remembers that this is the TLD server to use to resolve a .com name).  Assume also that the local cache is initially empty, that iterative DNS queries are always used, that DNS requests are just for name-to-IP-address translation, that 1 time unit is needed for each server-to-server or host-to-server (one way) request or response, and that there is only one authoritative name server (each) for any .edu or .com domain.Consider the following DNS requests, made by the local host at the given times:t=0,the local host requests that the name gaia.cs.umass.edu be resolved to an IP address.t=1,the local host requests that the name icann.org be resolved to an IP address.t=5,the local host requests that the name cs.umd.edu be resolved to an IP address. (Hint: be careful!)t=10,the local hostagainrequests that the name gaia.cs.umass.edu be resolved to an IP address.t=12, the local host requests that the name cs.mit.edu be resolved to an IP address.t=30,the local hostagainrequests that the name gaia.cs.umass.edu be resolved to an IP address. (Hint: be careful!)Which of the requests require 8 time units to be resolved?
+  ✔ Option 1: The request at t=0. - Correct
+  ⭕    Option 2: The request at t=1. - Incorrect - INCORRECT
+  ⭕    Option 3: The request at t=5. - Incorrect - INCORRECT
+  ⭕    Option 4: The request at t=10. - Incorrect - INCORRECT
+  ⭕    Option 5: The request at t=12. - Incorrect - INCORRECT
+  ⭕    Option 6: The request at t=30. - Incorrect - INCORRECT
+  ❓ 42867The request at t=0.The request att=0.The request at t=0.The request att=0.Your Answer:(You left this blank)exact_answernone5738786442867margin of error+/-
+  ❓ 83038The request at t=1.The request att=1.The request at t=1.The request att=1.exact_answernone5738786483038margin of error+/-
+  ❓ 84995The request at t=5.The request att=5.The request at t=5.The request att=5.exact_answernone5738786484995margin of error+/-
+  ❓ 86768The request at t=10.The request att=10.The request at t=10.The request att=10.exact_answernone5738786486768margin of error+/-
+  ❓ 50905The request at t=12.The request att=12.The request at t=12.The request att=12.exact_answernone5738786450905margin of error+/-
+  ❓ 75964The request at t=30.The request att=30.The request at t=30.The request att=30.exact_answernone5738786475964margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 36:
+Consider an HTTP 1.0 client and server. The RTT delay between the client and server is 2 seconds.  Suppose the time a server needs to transmit an object into its outgoing link is 3 seconds, as shown below for the first of these 100 requests.You can assume that any other HTTP message not containing an object sent by the client and server has a negligible (zero) transmission time. Suppose the client makes 100 requests, one after the other, waiting for a reply to a request before sending the next request.Using HTTP 1.0, how much time elapses between the client transmitting the first request, and the receipt of the last requested object?
+  ✔ Option 1: 700 secs - Correct
+  ⭕    Option 2: 502 secs - Incorrect - INCORRECT
+  ⭕    Option 3: 500 secs - Incorrect - INCORRECT
+  ⭕    Option 4: 300 secs - Incorrect - INCORRECT
+  ⭕    Option 5: 203 secs - Incorrect - INCORRECT
+  ❓ 28081700 secs700 secsexact_answernone5738785928081margin of error+/-
+  ❓ 41154502 secs502 secsexact_answernone5738785941154margin of error+/-
+  ❓ 669500 secs500 secsexact_answernone57387859669margin of error+/-
+  ❓ 12567300 secs300 secsexact_answernone5738785912567margin of error+/-
+  ❓ 35417203 secs203 secsexact_answernone5738785935417margin of error+/-
+----------------------------------------
+----------------------------------------
+Question 37:
+Suppose an HTTP client makes a request to the gaia.cs.umass.edu web server.  The client has never before requested a given base object, nor has it communicated recently with the gaia.cs.umass.edu server. You can assume, however, that the client host knows the IP address of gaia.cs.umass.edu.Suppose also that after downloading the base file, the browser encounters a jpeg object in the base html file that is stored on gaia.cs.umass.edu, and therefore makes another GET request to gaia.cs.umass.edu for that referenced jpeg object.How many round trip times (RTTs) are needed from when the client first makes the request to when the base page and the jpeg file are completely downloaded, assuming the time needed by the server to transmit the base file, or the jpeg file into the server's link is (each) equal to 1/2 RTT and that the time needed to transmit the HTTP GET into the client's link is zero.You should assume that HTTP 1.0 is being used.(You should take into account any TCP setup time required before an HTTP GET is actually sent by the client,  the time needed for the server to transmit the requested object, and any propagation delays not accounted for in these amounts of time.)
+  ✔ Option 4: 2 RTT - Correct
+  ⭕    Option 1: 2.5 RTT - Incorrect - INCORRECT
+  ⭕    Option 2: 5 RTT - Incorrect - INCORRECT
+  ⭕    Option 3: 1 RTT - Incorrect - INCORRECT
+  ⭕    Option 5: 4 RTT - Incorrect - INCORRECT
+  ❓ 607052.5 RTT2.5 RTTexact_answernone5738873860705margin of error+/-
+  ❓ 584475 RTT5 RTTexact_answernone5738873858447margin of error+/-
+  ❓ 810801 RTT1 RTTexact_answernone5738873881080margin of error+/-
+  ❓ 771322 RTT2 RTTexact_answernone5738873877132margin of error+/-
+  ❓ 976984 RTT4 RTTexact_answernone5738873897698margin of error+/-
+----------------------------------------
