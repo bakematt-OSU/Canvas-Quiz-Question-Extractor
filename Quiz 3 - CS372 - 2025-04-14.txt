@@ -4,6 +4,7 @@ Quiz 3 - 3 - 2025-04-14
 Question 1:
 ✔CORRECT - 6/6pts
 A client in a network with a proxy server requests a 5 MiB file from an internet server, fakeservername.com. The network’s proxy server has a 1.2 Mbps connection to fakeservername.com. The average response time between the network’s proxy server and the internet origin server (including RTT) is 2.1 seconds for a small “header-only” HTTP request/response. The file requested by the client is currently in the proxy server cache, but the proxy server relays the client’s request to the internet server with “if-modified since”.Assume that transmissions between the proxy and the origin servers are stream (not packets) at full bandwidth, with negligible propagation delay.How much time is saved if the file has not been modified? (Give answer in seconds, without units, rounded to two decimal places, so for an answer of 1.4233 seconds you would enter "1.42" without the quotes.)
+   ✔Given Answer: 34.95 - CORRECT
 ----------------------------------------
 ----------------------------------------
 Question 2:
