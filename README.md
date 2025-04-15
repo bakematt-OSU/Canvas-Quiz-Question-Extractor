@@ -1,5 +1,5 @@
 
-# Quiz Question Extractor
+# Canvas Quiz Question Extractor
 
 This Python script processes an HTML file containing quiz questions and answers, extracts relevant information, and outputs it into a structured text file. The script is designed to work with a quiz data format and is useful for organizing quiz results, including correct/incorrect answers, awarded points, and more.
 
