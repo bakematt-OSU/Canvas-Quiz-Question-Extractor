@@ -60,16 +60,20 @@ def process_file(file_path, output_file_name, quiz_number, class_name):
             points_possible = question.find('span', class_='points question_points')
 
             if points_awarded and points_possible:
-                points_awarded_text = points_awarded.get_text(strip=True)
+                points_awarded_text = points_awarded.get_text(strip=True).split()[0]  # Get only the number part (e.g., "6" from "6 / 6 pts")
+                points_possible_text = points_possible.get_text(strip=True).split()[1]  # Extract only the number (e.g., "6" from "/ 6 pts")
 
-                # Extract only the number from the points_possible span
-                points_possible_text = points_possible.get_text(strip=True).split()[1]  # Getting only the number part (e.g., "6" from " / 6 pts")
-
-                # Write the formatted output with corrected points format
-                output_file.write(f"----------------------------------------\n")
-                output_file.write(f"Question {question_index}:\n")
-                output_file.write(f"✔CORRECT - {points_awarded_text}\n")
-                output_file.write(f"{question_text}\n")
+                # Determine if the question is correct or incorrect
+                if "incorrect" in question.get('class', []):
+                    # Incorrect Question
+                    output_file.write(f"----------------------------------------\n")
+                    output_file.write(f"Question {question_index}:\n")
+                    output_file.write(f"❌INCORRECT - {points_awarded_text}/{points_possible_text}pts\n")
+                else:
+                    # Correct Question
+                    output_file.write(f"----------------------------------------\n")
+                    output_file.write(f"Question {question_index}:\n")
+                    output_file.write(f"✔CORRECT - {points_awarded_text}/{points_possible_text}pts\n")
             else:
                 output_file.write(f"----------------------------------------\n")
                 output_file.write(f"Question {question_index}:\n")
@@ -89,19 +93,16 @@ def process_file(file_path, output_file_name, quiz_number, class_name):
                     is_correct = 'correct' in answer.get('class', [])
                     is_selected = 'selected_answer' in answer.get('class', [])
 
-                    # Collect selected and unselected answers
-                    if is_selected:
-                        selected_answers.append(f"  ✔ Option {idx}: {answer_text} - Correct")
+                    # Format answers accordingly
+                    if is_selected and not is_correct:
+                        # Selected incorrect answer
+                        output_file.write(f"   ❌ Option {idx}: {answer_text} - SELECTED INCORRECT\n")
+                    elif is_selected and is_correct:
+                        # Selected correct answer
+                        output_file.write(f"   ✔ Option {idx}: {answer_text} - Correct\n")
                     else:
-                        unselected_answers.append(f"  ❌ Option {idx}: {answer_text} - Incorrect")
-
-            # Write selected answers first
-            for selected in selected_answers:
-                output_file.write(f"{selected}\n")
-
-            # Then write unselected answers
-            for unselected in unselected_answers:
-                output_file.write(f"{unselected}\n")
+                        # Unselected answer (correct or incorrect)
+                        output_file.write(f"   Option {idx}: {answer_text}\n")
 
             output_file.write("----------------------------------------\n")
 
