@@ -1,3 +1,14 @@
+# Ignore everything in /junk
 /junk
+
+# Allow directory tracking
+!Output/
+!Input/
+
+# Ignore all files in Output except .md
 /Output/*
+!/Output/*.md
+
+# Ignore all files in Input except .md
 /Input/*
+!/Input/*.md
