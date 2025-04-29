@@ -1,5 +1,6 @@
 # Ignore everything in /junk
 /junk
+/ARCHIVE
 
 # Allow directory tracking
 !Output/
