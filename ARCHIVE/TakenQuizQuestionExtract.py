@@ -9,7 +9,7 @@ Date:     2025-04-12
 import os
 from datetime import datetime
 from bs4 import BeautifulSoup
-import ProcessQuizFile
+import HTML_Extract
 
 # List all files in the current directory
 def list_files():
@@ -150,7 +150,7 @@ def main():
     output_file_name = choose_output_file(quiz_number, class_name)  # Generate output file name
 
     # Process the selected file and save the results to the output file
-    ProcessQuizFile.process_taken_quiz(input_file, output_file_name, quiz_number, class_name)
+    HTML_Extract.process_taken_quiz(input_file, output_file_name, quiz_number, class_name)
     print(f"\nResults have been saved to '{output_file_name}'.")
 
 if __name__ == "__main__":

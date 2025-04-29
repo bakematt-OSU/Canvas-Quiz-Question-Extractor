@@ -9,24 +9,9 @@ Date:     2025-04-12
 import os
 from datetime import datetime
 from bs4 import BeautifulSoup
-import ProcessQuizFile
+import HTML_Extract
+import FileProcess
 
-# List all files in the current directory
-def list_files():
-    """
-    Lists all files in the current directory.
-
-    This function prints all the files available in the current working
-    directory and returns them as a list of file names.
-
-    Returns:
-        list: A list of filenames in the current directory.
-    """
-    files = os.listdir('.')
-    print("\nAvailable files in the current directory:")
-    for idx, file in enumerate(files, 1):
-        print(f"{idx}. {file}")
-    return files
 
 # Function to read class info from CurrentClasses.txt
 def read_classes_from_file(filename):
@@ -52,41 +37,18 @@ def read_classes_from_file(filename):
         print(f"The file {filename} was not found.")
         return []
 
-# Prompt user to choose input file
-def choose_input_file(files):
-    """
-    Prompts the user to choose an input file from a list of available files.
-
-    This function displays a list of files and allows the user to select
-    a file by entering its corresponding number.
-
-    Args:
-        files (list): A list of file names available for selection.
-
-    Returns:
-        str: The name of the selected file.
-    """
-    while True:
-        try:
-            file_choice = int(input("\nEnter the number of the file you want to process: ")) - 1
-            if file_choice >= 0 and file_choice < len(files):
-                return files[file_choice]
-            else:
-                print("Invalid selection. Please try again.")
-        except ValueError:
-            print("Invalid input. Please enter a number.")
-
-# Prompt user to choose quiz number and class name
 def choose_quiz_and_class():
     """
-    Prompts the user to select a class and enter the quiz number.
+    Prompts the user to select a class and enter the quiz number, and asks for
+    any additional information related to the quiz.
 
     This function displays available classes and allows the user to either
     select a class from the list or enter the class name manually. It also
-    prompts the user for the quiz number.
+    prompts the user for the quiz number and any extra information.
 
     Returns:
-        tuple: A tuple containing the quiz number (str) and the class name (str).
+        tuple: A tuple containing the quiz number (str), the class name (str), 
+               and the extra information (str, optional).
     """
     classes = read_classes_from_file("CurrentClasses.txt")
     print("Available options:")
@@ -110,26 +72,22 @@ def choose_quiz_and_class():
         print("Invalid selection. Please try again.")
         return choose_quiz_and_class()
 
+    # Ask if there is any extra information after the quiz number
+    while True:
+        extra_info_input = input("Is there any extra information for this quiz? (1 for yes, 0 for no): ").strip()
+
+        if extra_info_input == '1':
+            extra_info = input("Please enter the extra information: ")
+            break
+        elif extra_info_input == '0':
+            extra_info = ""
+            break
+        else:
+            print("Invalid input. Please enter '1' for yes or '0' for no.")
+    quiz_number = quiz_number + ' - '+extra_info
+    
     return quiz_number, class_name
 
-# Prompt user to choose output file name
-def choose_output_file(quiz_number, class_name):
-    """
-    Generates the output file name based on quiz number, class name, and current date.
-
-    This function constructs a file name that follows the format:
-    'Quiz <quiz_number> - <class_name> - <current_date>.txt'
-
-    Args:
-        quiz_number (str): The quiz number.
-        class_name (str): The name of the class.
-
-    Returns:
-        str: The generated output file name.
-    """
-    current_date = datetime.now().strftime('%Y-%m-%d')
-    output_file_name = f"Quiz {quiz_number} - {class_name} - {current_date}.txt"
-    return output_file_name
 
 # Prompt user to select quiz extraction method
 def choose_extraction_method():
@@ -169,22 +127,22 @@ def main():
         None
     """
     extraction_method = choose_extraction_method()  # Choose quiz extraction method
-    files = list_files()  # List files in the current directory
-    input_file = choose_input_file(files)  # User selects input file
-    quiz_number, class_name = choose_quiz_and_class()  # User enters quiz number and class name
-    output_file_name = choose_output_file(quiz_number, class_name)  # Generate output file name
-    
+    files = FileProcess.list_files()  # List files in the current directory
+    if files:
+        input_file = FileProcess.choose_input_file(files)  # User selects input file
+        quiz_number, class_name = choose_quiz_and_class()  # User enters quiz number and class name
+        output_file_name = FileProcess.choose_output_file(quiz_number, class_name)  # Generate output file name
+        if extraction_method == 1:
+            # Process the selected file and save the results to the output file
+            HTML_Extract.process_taken_quiz(input_file, output_file_name, quiz_number, class_name)
+            print(f"\nResults have been saved to '{output_file_name}'.")
+        elif extraction_method == 2:
+            # Process the selected file and save the results to the output file
+            HTML_Extract.process_untaken_quiz(input_file, output_file_name, quiz_number, class_name)
+            print(f"\nResults have been saved to '{output_file_name}'.")
+        else:
+            print("ERROR - No matching Extraction Method")
 
-    if extraction_method == 1:
-        # Process the selected file and save the results to the output file
-        ProcessQuizFile.process_taken_quiz(input_file, output_file_name, quiz_number, class_name)
-        print(f"\nResults have been saved to '{output_file_name}'.")
-    elif extraction_method == 2:
-        # Process the selected file and save the results to the output file
-        ProcessQuizFile.process_untaken_quiz(input_file, output_file_name, quiz_number, class_name)
-        print(f"\nResults have been saved to '{output_file_name}'.")
-    else:
-        print("ERROR - No matching Extraction Method")
 
 if __name__ == "__main__":
     main()

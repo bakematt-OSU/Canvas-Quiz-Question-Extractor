@@ -1,0 +1,110 @@
+Quiz 4 - Questions - CS-372 INTRO TO COMPUTER NETWORKS - 2025-04-24
+----------------------------------------
+Question 1:
+The TCP protocol provides reliable, connection-oriented service.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 2:
+If I want to be sure I don't overwhelm the receive host with too much information, I would use the[ Select ]["TCP", "UDP"]protocol.
+----------------------------------------
+Question 3:
+A simple checksum can detect all 2-bit errors.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 4:
+When it comes to pushing data into the internet,[ Select ]["TCP", "UDP"]is the more effective protocol.
+----------------------------------------
+Question 5:
+It is acceptable to create two TCP connections on the same server/port doublet from the same client/port doublet.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 6:
+Compute the Internet checksum value for these two 16-bit words:01000001 11000100and00100000 00101011
+   Option 1: 10011110 00001111
+   Option 2: 01101110 11010101
+   Option 3: 10011110 00010000
+   Option 4: 10011110 00010001
+----------------------------------------
+Question 7:
+The transport layer manages communications from[ Select ]["host", "core", "process"]to[ Select ]["host", "process", "core"].
+----------------------------------------
+Question 8:
+A simple checksum can detect all 1-bit errors.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 9:
+For demultiplexing, a TCP socket is identified by...
+   Option 1: <source address, source port>
+   Option 2: <source address, source port, destination address, destination port>
+   Option 3: <destination address, destination port>
+----------------------------------------
+Question 10:
+A simple checksum can detect some 2-bit errors.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 11:
+If I want to be reasonably sure the recipient received my transmitted information, I would use the[ Select ]["UDP", "TCP"]protocol.
+----------------------------------------
+Question 12:
+It is acceptable to create two TCP connections on the same server/port doublet from the same client with different port numbers.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 13:
+The UDP protocol provides error detection and correction.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 14:
+The UDP protocol provides unreliable, connectionless service.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 15:
+If I were going to implement a lossy VoIP connection, I would use the[ Select ]["UDP", "TCP"]protocol.
+----------------------------------------
+Question 16:
+The TCP protocol uses a[ Select ]["8", "2", "16", "32", "1"]-bit,[ Select ]["32", "2", "8", "1", "16"]'s complement of the[ Select ]["2", "16", "8", "1", "32"]'s complement sum to compute the checksum.
+----------------------------------------
+Question 17:
+When it comes to reliable data transmission,[ Select ]["TCP", "UDP"]is a more effective protocol.
+----------------------------------------
+Question 18:
+The network layer manages communications from[ Select ]["process", "core", "host"]to[ Select ]["host", "core", "process"].
+----------------------------------------
+Question 19:
+Which of the following best describes reliable data transfer in the internet (using networking terminology)?
+   Option 1: The ability to know whether or not your sent or received information was changed in transit.
+   Option 2: The ability to send information into the internet reliably.
+   Option 3: The ability to send and receive information that you are reasonably sure is what was sent, without losing any information.
+   Option 4: The ability to send and receive information that you are 100% sure is exactly what was sent, without losing any information.
+----------------------------------------
+Question 20:
+Compute the Internet checksum value for these two 16-bit words:11110101 11010011and10110011 01000100
+   Option 1: 01010110 11100111
+   Option 2: 01011110 11000101
+   Option 3: 01010110 11101000
+   Option 4: 01101110 11010101
+----------------------------------------
+Question 21:
+The TCP protocol provides reliable, connectionless service.
+   Option 1: True
+   Option 2: False
+----------------------------------------
+Question 22:
+Consider the two sixteen bit numbers:10110100 0100011001001000 01101111Compute the Internet Checksum of these two valuesEnter the 2 bytes each as an 8-bit number with only 0’s and 1’s, and make a single blank space between the two 8-bit numbers (e.g., 01010101 00101000).[Note: you can generate/solve/practice many similar instances of this questionhereLinks to an external site..]
+----------------------------------------
+Question 23:
+Consider the figure below, with 6 sockets shown across the network, and the corresponding Python code at each host.  There are four UDP segments in flight.  Match the source and destination port numbers for each segment with a value below.Note: you can generate/solve/practice many similar instances of this questionhereLinks to an external site..
+   Option 1: No answer text found.
+   Option 2: No answer text found.
+   Option 3: No answer text found.
+   Option 4: No answer text found.
+   Option 5: No answer text found.
+   Option 6: No answer text found.
+----------------------------------------
