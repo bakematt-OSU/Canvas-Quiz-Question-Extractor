@@ -78,13 +78,14 @@ def choose_quiz_and_class():
 
         if extra_info_input == '1':
             extra_info = input("Please enter the extra information: ")
+            quiz_number = quiz_number + ' - '+extra_info
             break
         elif extra_info_input == '0':
             extra_info = ""
             break
         else:
             print("Invalid input. Please enter '1' for yes or '0' for no.")
-    quiz_number = quiz_number + ' - '+extra_info
+    
     
     return quiz_number, class_name
 
