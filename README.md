@@ -1,99 +1,111 @@
-
 # Canvas Quiz Question Extractor
 
-This Python script processes an HTML file containing quiz questions and answers, extracts relevant information, and outputs it into a structured text file. The script is designed to work with a quiz data format and is useful for organizing quiz results, including correct/incorrect answers, awarded points, and more.
+A Python tool designed to extract and organize quiz questions, answers, and scoring details from Canvas LMS HTML quiz reports. This utility is particularly useful for instructors and students aiming to analyze quiz performance or archive assessments.
 
 ## Features
 
-- **Class Selection**: Choose from predefined classes stored in `CurrentClasses.txt` or manually input class details.
-- **Quiz Processing**: Extract questions, answers, and points awarded from the HTML file.
-- **Formatted Output**: Save the results into a text file, including whether each answer was correct or incorrect, and points awarded.
-- **Customizable File Handling**: You can select the input file to process and automatically generate an output file name based on the quiz number, class name, and date.
+- **Class Management**: Select from predefined classes listed in `CurrentClasses.txt` or input new class details manually.
+- **Quiz Parsing**: Process Canvas-generated HTML quiz reports to extract questions, student responses, correct answers, and points awarded.
+- **Structured Output**: Generate a neatly formatted text file summarizing each question, the student's answer, correctness, and scoring.
+- **Batch Processing**: Handle multiple quiz reports efficiently by placing them in the `Input/` directory.
 
-## Requirements
+## Prerequisites
 
-- Python 3.x
-- **BeautifulSoup** library for HTML parsing
+- Python 3.6 or higher
+- Required Python packages listed in `requirements.txt`
 
-To install BeautifulSoup, run the following command:
+## Installation
 
-```bash
-pip install beautifulsoup4
-```
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/bakematt-OSU/Canvas-Quiz-Question-Extractor.git
+   cd Canvas-Quiz-Question-Extractor
+   ```
+
+2. **Install Dependencies**:
+
+   It's recommended to use a virtual environment:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
 ## Usage
-1. **Save/Copy HTML Quiz Results `Input.html`**:
-   1. To use this script with Canvas Quiz results, first, export the quiz results from Canvas.
-   2. Go to Canvas and open the quiz for which you want to extract results.
-   3. Click on Quiz Results.
-   4. Click on Download Results in CSV format.
-   5. Open the CSV in a spreadsheet application (e.g., Excel or Google Sheets).
-   6. Convert the CSV data into a structured HTML format that can be processed by this script.
-   7. Save the quiz results as an HTML file in the root of the script directory.
-   - The HTML file can then be selected by the script for processing.
 
-2. **Prepare `CurrentClasses.txt`**:
-   - The script will read class names from the `CurrentClasses.txt` file. Each line should contain a class name.
+1. **Prepare HTML Files**:
 
-3. **Run the Script**:
-   - The script will prompt you to select a file to process, choose the quiz number and class name, and generate the output.
-   - The output file will be named in the format: `Quiz <quiz_number> - <class_name> - <current_date>.txt`.
+   - Export the quiz report from Canvas as an HTML file.
+   - Place the HTML file(s) into the `Input/` directory.
 
-4. **Process the File**:
-   - The script reads the input HTML file, extracts quiz data, and formats the results into a structured text file.
+2. **Run the Extractor**:
 
-### Example
+   ```bash
+   python CanvasQuizExtractor.py
+   ```
 
-```bash
-$ python TakenQuizQuestionExtract.py
-Available files in the current directory:
-1. quiz_results.html
-Enter the number of the file you want to process: 1
-Available options:
-0. Enter class info manually
-1. CS-101 Intro to Computer Science
-2. CS-201 Data Structures
-Select a class by number: 1
-Enter the quiz number: 3
-Results have been saved to 'Quiz 3 - CS-101 Intro to Computer Science - 2025-04-14.txt'.
-```
+   - You'll be prompted to select a class from `CurrentClasses.txt` or enter a new class name.
+   - The script will process each HTML file in the `Input/` directory.
 
-## How It Works
+3. **View Output**:
 
-1. **File Selection**: The script lists files in the current directory and allows you to select one to process.
-2. **Class and Quiz Selection**: Choose a class from `CurrentClasses.txt` or enter a class manually. Input the quiz number.
-3. **Processing HTML**: The script reads the HTML file, finds all questions, and extracts relevant details:
-   - Question text
-   - Answer options
-   - Points awarded and points possible
-   - Whether the answer was correct or incorrect
-4. **Output**: The results are written to a text file, with each question and its answers formatted with correctness indicators.
+   - Processed results will be saved in the `Output/` directory.
 
-### Output Example
+### Example Output
+
+Example of output file content:
 
 ```
-Quiz 3 - CS-101 Intro to Computer Science - 2025-04-14
+Quiz 1 - CS-101 - 2025-04-29
+----------------------------------------
 ----------------------------------------
 Question 1:
-✔CORRECT - 6 / 6pts
-What is the time complexity of binary search?
-   ✔ Option 1: O(log n) - CORRECT
-   ❌ Option 2: O(n) - INCORRECT
-   Option 3: O(n log n)
+✔ CORRECT - 1.66/1.66pts
+What is the IP address of the client computer (source) that is transferring the file to google.com? Enter the IP address in dotted decimal notation (include each dot, and omit any leading zeros for any byte, e.g., 10.1.216.54):
+   ✔ - CORRECT: Text 1: 192.168.86.68
+----------------------------------------
 ----------------------------------------
 Question 2:
-❌INCORRECT - 0 / 1pts
-Which sorting algorithm is the most efficient in the worst case?
-   ✔ Option 1: QuickSort - CORRECT
-   ❌ Option 2: BubbleSort - SELECTED INCORRECT
-   Option 3: MergeSort
+✔ CORRECT - 1.66/1.66pts
+What is the client-side port number of the Server computer (source) that is transferring the file to google.com? Enter the port integer port number (digits only, no commas), with no leading 0's:
+   ✔ - CORRECT: Text 1: 55639
+----------------------------------------
+----------------------------------------
+Incorrect Question 3:
+✖ INCORRECT - 0.0/1.66pts
+What is the value in the Acknowledgment field of the TCP SYNACK segment that is used to initiate the TCP connection between the client computer and google.com? [Note: this is the "raw" value carried in the ACK number field within the segment, not the "abs ack number" displayed in Wireshark's TCP protocol window.] Enter the acknowledgment number (digits only, no commas), with no leading 0's:
+   ✖ Text Box 1: 778
 ----------------------------------------
 ```
+
+## File Structure
+
+```
+Canvas-Quiz-Question-Extractor/
+├── ARCHIVE/                # Archived or old files
+├── Input/                  # Place HTML quiz reports here
+├── Output/                 # Processed output files
+├── __pycache__/            # Python cache files
+├── CanvasQuizExtractor.py  # Main script to run
+├── CurrentClasses.txt      # List of predefined classes
+├── FileProcess.py          # Module for file handling
+├── HTML_Extract.py         # Module for HTML parsing
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+```
+
+## Notes
+
+- Ensure that the HTML files exported from Canvas retain their original formatting for accurate parsing.
+- The script is tailored for the structure of Canvas quiz reports; modifications may be necessary for other formats.
 
 ## Contributing
 
-Feel free to fork this repository, create a pull request, or report issues if you find any bugs or have suggestions for improvements.
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
