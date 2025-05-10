@@ -1,36 +1,74 @@
-from fpdf import FPDF
 from quiz_models import Quiz
 import os
 
-def export_quiz_to_pdf(quiz: Quiz, output_path: str):
-    pdf = FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
-    pdf.add_page()
-    pdf.set_font("Arial", size=12)
+def export_quiz_to_markdown(quiz: Quiz, output_path: str):
+    """
+    EXPORT A QUIZ OBJECT TO A MARKDOWN (.md) FILE FORMAT.
 
-    pdf.set_font("Arial", style='B', size=14)
-    pdf.cell(200, 10, f"Quiz: {quiz.title}", ln=True, align='C')
-    pdf.ln(10)
+    Args:
+        quiz (Quiz): The quiz object to export.
+        output_path (str): Destination file path for the Markdown file.
 
-    for question in quiz.questions:
-        pdf.set_font("Arial", style='B', size=12)
-        pdf.multi_cell(0, 10, f"{question.number}: {question.text}")
+    Returns:
+        None
+    """
+    # OPEN THE TARGET MARKDOWN FILE FOR WRITING
+    with open(output_path, "w", encoding="utf-8") as f:
+        # WRITE THE QUIZ TITLE AS A MARKDOWN HEADING
+        f.write(f"# Quiz: {quiz.title}\n\n")
 
-        if question.images:
-            for img_path in question.images:
-                if os.path.exists(img_path):
-                    pdf.image(img_path, w=100)
+        # ITERATE THROUGH EACH QUESTION IN THE QUIZ
+        for question in quiz.questions:
+            # WRITE THE QUESTION NUMBER AND TEXT AS A SUBHEADING
+            f.write(f"## {question.number}: {question.text}\n")
 
-        pdf.set_font("Arial", size=12)
-        for idx, option in enumerate(question.options):
-            prefix = "[x]" if option.is_selected else "[ ]"
-            pdf.multi_cell(0, 8, f"{prefix} {option.text}")
-            if option.images:
+            # EMBED EACH ASSOCIATED IMAGE FOR THE QUESTION
+            for img in question.images:
+                f.write(f"![Question Image]({img})\n")
+
+            # DISPLAY EACH ANSWER OPTION WITH A CHECKBOX-LIKE MARK
+            for option in question.options:
+                mark = "[x]" if option.is_selected else "[ ]"
+                f.write(f"- {mark} {option.text}\n")
+
+                # EMBED EACH IMAGE ASSOCIATED WITH THE OPTION
                 for img in option.images:
-                    if os.path.exists(img):
-                        pdf.image(img, w=90)
+                    f.write(f"  ![Option Image]({img})\n")
 
-        pdf.ln(5)
+            # ADD A LINE BREAK BETWEEN QUESTIONS
+            f.write("\n")
 
-    pdf.output(output_path)
-    print(f"✅ PDF saved to {output_path}")
+    # PRINT CONFIRMATION MESSAGE TO CONSOLE
+    print(f"✅ Markdown saved to {output_path}")
+
+def export_quiz_to_txt(quiz: Quiz, output_path: str):
+    """
+    EXPORT A QUIZ OBJECT TO A PLAIN TEXT (.txt) FILE FORMAT.
+
+    Args:
+        quiz (Quiz): The quiz object to export.
+        output_path (str): Destination file path for the text file.
+
+    Returns:
+        None
+    """
+    # OPEN THE TARGET TEXT FILE FOR WRITING
+    with open(output_path, "w", encoding="utf-8") as f:
+        # WRITE THE QUIZ TITLE TO THE TOP OF THE FILE
+        f.write(f"Quiz: {quiz.title}\n\n")
+
+        # ITERATE THROUGH EACH QUESTION IN THE QUIZ
+        for question in quiz.questions:
+            # WRITE THE QUESTION NUMBER AND TEXT
+            f.write(f"{question.number}: {question.text}\n")
+
+            # WRITE EACH ANSWER OPTION WITH INDENTATION AND MARK
+            for option in question.options:
+                mark = "[x]" if option.is_selected else "[ ]"
+                f.write(f"  {mark} {option.text}\n")
+
+            # ADD A LINE BREAK BETWEEN QUESTIONS
+            f.write("\n")
+
+    # PRINT CONFIRMATION MESSAGE TO CONSOLE
+    print(f"✅ Text file saved to {output_path}")

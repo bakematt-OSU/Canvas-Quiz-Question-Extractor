@@ -1,0 +1,1633 @@
+{
+  "Matt": {
+    "CS-370": {
+      "3": {
+        "1": {
+          "title": "3",
+          "questions": [
+            {
+              "number": "Question 1",
+              "text": "Select the three \u201cAAA\u201ds of access control?",
+              "options": [
+                {
+                  "text": "Authorization",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Authentication",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Accounting",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Auditing",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 2",
+              "text": "Which of the following is user authentication? (pick all that apply)",
+              "options": [
+                {
+                  "text": "Granting users access",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Verifying something is genuine",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Establishing identity",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Verifying someone is who they claim to be",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 3",
+              "text": "Which of the following is multi-factor authentication? (pick one)",
+              "options": [
+                {
+                  "text": "Server authenticating to the user",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "User authenticating to the server using multiple passwords",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "User authenticating to the server and server authenticating to the user",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "User authenticating to an ATM using a chip card and PIN",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 4",
+              "text": "In which of the following access control models, do regular users get to adjust the access policy?",
+              "options": [
+                {
+                  "text": "Role-based Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Attribute-based Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Discretionary Access Control",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Mandatory Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 5",
+              "text": "In which of the following access control models, are attributes of the environment used for access control?",
+              "options": [
+                {
+                  "text": "Role-based Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Attribute-based Access Control",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Mandatory Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Discretionary Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 6",
+              "text": "Which of the following are factors of authentication? (pick all that apply)",
+              "options": [
+                {
+                  "text": "Who you are",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "What you know",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "What you have",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Where you are",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "What you do",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 7",
+              "text": "Which of the following statements accurately describe complementation information in MFA?",
+              "options": [
+                {
+                  "text": "Helps ensure that if one factor is compromised, the attacker still needs another factor.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Combines distinct types of factors to cover multiple vulnerabilities.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Replaces weaker factors with multiple instances of the same factor to create redundancy.",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Allows multiple factors to rely on the exact same secret, thereby simplifying management.",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 8",
+              "text": "In which of the following access control models, do labels associated with processes and resources determine allowed access?",
+              "options": [
+                {
+                  "text": "Attribute-based Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Mandatory Access Control",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Discretionary Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Role-based Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 9",
+              "text": "Which factors best illustrate how complementation information protects against a stolen password?",
+              "options": [
+                {
+                  "text": "A fingerprint scan on a separate reader device.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "An SMS-based verification code sent to the user\u2019s phone.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "A unique PIN that is identical to the password.",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "A second password stored on the same password manager.",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "A dedicated hardware token generating a one-time code.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 10",
+              "text": "Which of the following are key principles of access control? (select all that apply)",
+              "options": [
+                {
+                  "text": "Least privilege",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Least common mechanism",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Separation-of-duty",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Open system",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 11",
+              "text": "Which of the following is obtained by slicing the access control matrix by columns?",
+              "options": [
+                {
+                  "text": "Capabilities",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Column",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Access Control Lists",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Mandatory Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 12",
+              "text": "Which of the following are true about password-based systems? (pick all that apply)",
+              "options": [
+                {
+                  "text": "Easy to implement",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Less expensive as no special hardware is needed",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Easier to replace or recover from lost passwords",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 13",
+              "text": "Which of the following is true about Anderson\u2019s formula? (pick all that apply)",
+              "options": [
+                {
+                  "text": "Assumes a targeted attack",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Only provides an upper bound of strength",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Doesn\u2019t take into account attacker\u2019s computational ability",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Assumes uniform distribution on user picked passwords",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 14",
+              "text": "Which of the following is obtained by slicing the access control matrix by rows?",
+              "options": [
+                {
+                  "text": "Capabilities",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Role-based access control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Mandatory Access Control",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Access Control Lists",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 15",
+              "text": "Which of the following password strategies provides passwords with higher entropy and are easier to remember?",
+              "options": [
+                {
+                  "text": "System generated passwords with special characters",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Passphrases",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 16",
+              "text": "Which of the following access review is easier when using access control lists?",
+              "options": [
+                {
+                  "text": "Per-subject review",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Per-access-right review",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Per-object review",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 17",
+              "text": "How are passwords stored on a login server?",
+              "options": [
+                {
+                  "text": "Stored as encrypted ciphertext so that a server compromise does not leak user passwords",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "None of the above",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Stored as plaintext so the server can compare the user supplied password with that stored in the file during authentication",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "One-way hash functions of the passwords are stored so that a server compromise does not leak passwords",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 18",
+              "text": "Which of the following access review is easier when using capabilities?",
+              "options": [
+                {
+                  "text": "Per-subject review",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Per-object review",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Per-access-right review",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 19",
+              "text": "Which of the following statements about Bloom Filters used for proactive password checking are TRUE? (pick all that apply)",
+              "options": [
+                {
+                  "text": "Bloom filter may sometimes falsely label a good password (i.e., not in bad password list) as a bad password",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Bloom filter will never label a good password (i.e., not in bad password list) as a bad password",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Bloom filter may sometimes miss a bad password",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Bloom filter will always catch a bad password (i.e., password in the bad list)",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 20",
+              "text": "Can S2 remove seek permission on disk D1 from S1?",
+              "options": [
+                {
+                  "text": "No",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Yes, because of R3",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": [
+                "_contents_library/Q_group1-all.png"
+              ]
+            },
+            {
+              "number": "Question 21",
+              "text": "Looking at the access matrix above and using the rules governing access matrix change\n, can S1 grant Read access on F1 to S3?",
+              "options": [
+                {
+                  "text": "No",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Yes, because of R2",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": [
+                "_contents_library/Q_group1-all.png"
+              ]
+            },
+            {
+              "number": "Question 22",
+              "text": "Looking at the access matrix above and using the rules governing access matrix change, c\nan S3 remove wakeup permission on process P1 from S1?",
+              "options": [
+                {
+                  "text": "Yes, because of R5",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": [
+                "_contents_library/Q_group1-all.png"
+              ]
+            },
+            {
+              "number": "Question 23",
+              "text": "Which of the following is a type-1 dictionary attack?",
+              "options": [
+                {
+                  "text": "An attacker attempts to log into to a bank account by repeatedly guessing the password",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "An attacker gains access to the password file on a server and repeatedly guesses passwords to find a match",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 24",
+              "text": "In Unix File System Access Control, superuser is exempt from usual access control restrictions and has system wide-access. Is this statement true or false?",
+              "options": [
+                {
+                  "text": "True",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "False",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 25",
+              "text": "What is the downside of re-using a password across multiple sites?",
+              "options": [
+                {
+                  "text": "Re-using strong passwords has no downsides as they are hard to crack and reduces the effort on part of the user",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Re-using passwords increases impact of compromise as one compromised site could impact other unrelated sites that use the same passwords",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Re-using passwords results in loss of accountability",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 26",
+              "text": "Which of the following capture the intuition for integrity levels? (select all that apply)",
+              "options": [
+                {
+                  "text": "The higher the integrity level associated with an object or file the more confidential the information contained within it is",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "The higher the integrity level associated with an object or file the higher the confidence in reliability of the information contained within it",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "The higher the integrity level associated with an object or file the higher the confidence that no can read the information",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "The higher the integrity level associated with an object or file the higher the confidence that it will execute correctly",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 27",
+              "text": "Why might a second factor based on a separate device be considered more complementary than a second factor on the same device?",
+              "options": [
+                {
+                  "text": "An attacker controlling the primary device might intercept both factors if they are on that single device",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Storing the factors separately makes it harder to compromise them simultaneously.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Using one device for all factors simplifies user experience and thus is generally preferred.",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "A separate device factor forces the attacker to physically steal two items instead of one.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 28",
+              "text": "Which of the following is the simple security property in BIBA integrity model?",
+              "options": [
+                {
+                  "text": "No write up",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No read up",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No write down",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No read down",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 29",
+              "text": "Which of the following is the *-security (star security) property BIBA integrity model?",
+              "options": [
+                {
+                  "text": "No read up",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No read down",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No write down",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No write up",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 30",
+              "text": "Authentication is a critical first step for_________.",
+              "options": [
+                {
+                  "text": "Authorization",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Auditing",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Identification",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Encryption",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 31",
+              "text": "When using a Bloom filter, an item can be either \u2018definitely not\u2019 in the set or ______ in the set.",
+              "options": [
+                {
+                  "text": "Possiblly",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Likely",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Yes",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Certainly",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 32",
+              "text": "Consider the following two integrity labels:\nLabel 1: (Medium: {p1, p2})\nLabel 2: (Low: {p1, p2}).\nHere Low and Medium are integrity levels with Low < Medium and p1, p2 and p3 are categories.\nWhich of the following statements is true?",
+              "options": [
+                {
+                  "text": "Label 1 dominates Label 2",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Label 2 dominates Label 1",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "None of the above",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Neither label dominates the other",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 33",
+              "text": "A ______ table is a pre-computed list of password hashes attackers use to speed up cracking.",
+              "options": [
+                {
+                  "text": "Rainbow",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Master",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Lookup",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Bloom",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 34",
+              "text": "Which of the following is true about Chinese Wall Model? (select all that apply)",
+              "options": [
+                {
+                  "text": "Chinese Wall model is a Confidentiality model like BLP",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "None of these",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Chinese Wall model is an Integrity model like BIBA",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Chinese Wall model enforces conflict of interest policies",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 35",
+              "text": "Which of the following is the simple security property in Chinese Wall model?",
+              "options": [
+                {
+                  "text": "Cannot read two objects belonging to the same CI class but in separate data sets (DSes)",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "None of these",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Cannot read two object belonging to different CI classes",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Cannot read two objects belonging to the same data set (DS)",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 36",
+              "text": "Which of the following are implications of *-security (star security) property in Chinese Wall model? (select all that apply)",
+              "options": [
+                {
+                  "text": "Can write to an object O if only if all the objects the subject has ever read are in the same DS (data set) as O",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "None of these",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "To write to an object O the subject must first have read access to it",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Cannot write to objects belonging to different data sets (DSes)",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 0.67,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 37",
+              "text": "Which of the following is the simple security property in BLP confidentiality model?",
+              "options": [
+                {
+                  "text": "No write up",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No read down",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No read up",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No write down",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 38",
+              "text": "Which of the following is the *-security (star security) property in BLP confidentiality model?",
+              "options": [
+                {
+                  "text": "No read down",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No read up",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No write up",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "No write down",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 39",
+              "text": "When using DAC along with MAC, i.e., DAC in MAC), Which of the following is true? (Select one or more)",
+              "options": [
+                {
+                  "text": "If MAC policy allows the requested access then grant access",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Only grant access if both MAC and DAC allow access.",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Only grant access if MAC policy also grants access",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "If DAC policy allows the requested access then grant access",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 40",
+              "text": "Consider the following two security labels:\nLabel 1: (Restricted: {p1, p2})\nLabel 2: (Secret: {p1, p3}).\nHere Restricted and Secret are security levels with Restricted < Secret and p1, p2 and p3 are categories.\nUsing the BLP confidentiality model, which of the following statements is true? (Select one)",
+              "options": [
+                {
+                  "text": "None of the above",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Label 2 dominates Label 1",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Neither label dominates the other",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Label 1 dominates Label 2",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 41",
+              "text": "Which of the following is NOT True about Roles in RBAC?",
+              "options": [
+                {
+                  "text": "Role is defined by a set of permissions",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Role is a group of Users",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Role-permission associations are relatively stable",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Permissions can be revoked from a role",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 42",
+              "text": "Which of the following are True about RBAC? (select all that apply)",
+              "options": [
+                {
+                  "text": "A User can have multiple Role assigned to her",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "A Role can have multiple Users assigned to it",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "In RBAC, Roles are mapped to permissions and, and Users are mapped to Roles",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Roles represent job functions, competency or authority in an organization",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 43",
+              "text": "Which of the following is NOT TRUE about RBAC Sessions?",
+              "options": [
+                {
+                  "text": "A session can have multiple active users in it",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "A user can activate multiple roles in a session",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 44",
+              "text": "Consider a hierarchical Role-Based Access Control (RBAC) system where a role Manager inherits from a role Clerk. A Manager is permitted to perform operations Review and Approve on resource Report, and a Clerk is permitted to perform operation Edit on resource Report. User Alice is assigned to role Manager, and user Bob is assigned to role Clerk.\nTRUE/FALSE: Bob is necessarily also assigned to the role Manager.",
+              "options": [
+                {
+                  "text": "True",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "False",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 45",
+              "text": "Consider a hierarchical Role-Based Access Control (RBAC) system where a role Manager inherits from a role Clerk. A Manager is permitted to perform operations Review and Approve on resource Report, and a Clerk is permitted to perform operation Edit on resource Report. User Alice is assigned to role Manager, and user Bob is assigned to role Clerk.\nTRUE/FALSE: Alice necessarily has privileges to Edit.",
+              "options": [
+                {
+                  "text": "True",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "False",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 46",
+              "text": "Which of the following are TRUE about Static Separation of Duty (SSoD) and Dynamic Separation of Duty (DSoD)? (select all that apply)",
+              "options": [
+                {
+                  "text": "Neither can support mutually exclusive roles",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "DSoD is like SSoD but is used to deal with temporal conflicts of interest",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "SSoD is applied during role assignment where as DSoD is applied during role activation in sessions",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Both prevent conflicts of interest",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 47",
+              "text": "Which of the following Security Principle does RBAC support? (select all that apply)",
+              "options": [
+                {
+                  "text": "Least-privilege",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Separation of Privilege",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Open Design",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Economy of Mechanism",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "Least Common Mechanism",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            },
+            {
+              "number": "Question 48",
+              "text": "Who is responsible for establishing access permissions MAC access control model?",
+              "options": [
+                {
+                  "text": "The system administrator",
+                  "is_selected": true,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "The user requiring access to the resource",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": "The system administrator and the owner of the resource",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                },
+                {
+                  "text": ".The owner of the resource",
+                  "is_selected": false,
+                  "is_correct": null,
+                  "images": []
+                }
+              ],
+              "is_correct": null,
+              "points_awarded": 1.0,
+              "points_possible": 1.0,
+              "answer_given": null,
+              "matching_pairs": [],
+              "images": []
+            }
+          ]
+        }
+      }
+    }
+  }
+}
