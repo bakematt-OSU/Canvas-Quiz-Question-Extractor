@@ -17,8 +17,7 @@ QUIZ_ATTEMPT_FOLDER = "quiz_attempts"
 # CREATE THE FOLDER IF IT DOES NOT ALREADY EXIST
 os.makedirs(QUIZ_ATTEMPT_FOLDER, exist_ok=True)
 
-
-def save_quiz_attempt(quiz: Quiz, attempt_id: str, class_name: str, student_name: str):
+def save_quiz_attempt(quiz: Quiz, attempt_id: str, class_name: str):
     """
     SAVE A QUIZ ATTEMPT TO A JSON FILE, NESTED UNDER THE CLASS NAME.
 
@@ -33,12 +32,25 @@ def save_quiz_attempt(quiz: Quiz, attempt_id: str, class_name: str, student_name
     # CONSTRUCT THE FULL OUTPUT PATH FOR THE JSON FILE
     output_path = os.path.join(QUIZ_ATTEMPT_FOLDER, f"{attempt_id}.json")
 
-    # WRAP THE QUIZ DICTIONARY UNDER A KEY NAMED AFTER THE CLASS
-    data = {student_name: {class_name: {quiz.title: {attempt_id: quiz.to_dict()}}}}
+    # CREATE A SUBDIRECTORY FOR THE CLASS NAME
+    class_folder = os.path.join(QUIZ_ATTEMPT_FOLDER, class_name)
+    os.makedirs(class_folder, exist_ok=True)
+
+    # DEFINE FULL OUTPUT PATH AS: quiz_attempts/ClassName/attempt_id.json
+    output_path = os.path.join(class_folder, f"{attempt_id}.json")
+
+    # STRUCTURE: Class -> Quiz -> Attempt
+    data = {
+        class_name: {
+            quiz.title: {
+                attempt_id: quiz.to_dict()
+            }
+        }
+    }
+
     # WRITE THE DATA TO THE OUTPUT FILE WITH UTF-8 ENCODING
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-
 
 def load_quiz_attempt(attempt_id: str) -> Quiz:
     """
@@ -63,7 +75,6 @@ def load_quiz_attempt(attempt_id: str) -> Quiz:
         # LOAD AND RETURN THE QUIZ OBJECT
         return Quiz.from_dict(data[class_name])
 
-
 def load_all_quiz_attempts() -> List[Quiz]:
     """
     LOAD ALL SAVED QUIZ ATTEMPTS FROM THE DIRECTORY.
@@ -77,9 +88,7 @@ def load_all_quiz_attempts() -> List[Quiz]:
     for filename in os.listdir(QUIZ_ATTEMPT_FOLDER):
         if filename.endswith(".json"):
             # OPEN AND READ EACH FILE
-            with open(
-                os.path.join(QUIZ_ATTEMPT_FOLDER, filename), "r", encoding="utf-8"
-            ) as f:
+            with open(os.path.join(QUIZ_ATTEMPT_FOLDER, filename), "r", encoding="utf-8") as f:
                 data = json.load(f)
 
                 # EXTRACT CLASS NAME KEY (ONLY ONE PER FILE)
@@ -89,7 +98,6 @@ def load_all_quiz_attempts() -> List[Quiz]:
                 quizzes.append(Quiz.from_dict(data[class_name]))
 
     return quizzes
-
 
 def extract_unique_questions_with_correct_answers(quizzes: List[Quiz]):
     """
@@ -112,8 +120,7 @@ def extract_unique_questions_with_correct_answers(quizzes: List[Quiz]):
             if key not in seen:
                 # FILTER TO ONLY INCLUDE CORRECTLY SELECTED OPTIONS
                 correct_opts = [
-                    opt
-                    for opt in q.options
+                    opt for opt in q.options
                     if opt.is_selected and q.points_awarded == q.points_possible
                 ]
 

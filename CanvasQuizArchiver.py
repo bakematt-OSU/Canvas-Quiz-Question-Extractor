@@ -125,9 +125,6 @@ def main():
     # LIST HTML FILES IN INPUT DIRECTORY
     html_files = list_html_files(input_dir)
 
-    # PROMPT FOR STUDENT NAME
-    student_name = input("ENTER STUDENT NAME: ").strip()
-
     # HANDLE NO FILES CASE
     if not html_files:
         print("NO HTML FILES FOUND.")
@@ -147,8 +144,7 @@ def main():
     quiz = parse_quiz_html(file_path, quiz_title)
 
     # SAVE QUIZ ATTEMPT TO JSON ARCHIVE
-    # save_quiz_attempt(quiz, attempt_id, class_name)
-    save_quiz_attempt(quiz, attempt_id, class_name, student_name)
+    save_quiz_attempt(quiz, attempt_id, class_name)
 
     # CONFIRM SUCCESS
     print(f"\n✅ QUIZ '{quiz_title}' SAVED SUCCESSFULLY UNDER ID '{attempt_id}'.")
